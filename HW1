@@ -28,13 +28,12 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 47,
+      "execution_count": null,
       "metadata": {
         "id": "BUZ3szNXpjW8"
       },
       "outputs": [],
       "source": [
-        "\n",
         "import pandas as pd\n",
         "import os"
       ]
@@ -44,16 +43,16 @@
       "source": [
         "from google.colab import drive\n",
         "drive.mount('/content/drive')\n",
-        "path = '/content/drive/MyDrive/BSC_DRDM23'"
+        "path = '/content/drive/MyDrive/bsc_dpdm23/shopping/bsc_dpdm23_data'"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "4t34WQsGqBx-",
-        "outputId": "f2c6df9f-1f5b-4984-e8e5-d372581b0ec1"
+        "outputId": "9f313ce7-c197-48f0-d3f8-05798fa0ba8a"
       },
-      "execution_count": 48,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -72,7 +71,7 @@
       "metadata": {
         "id": "tja-p_9hqEBL"
       },
-      "execution_count": 49,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -86,9 +85,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Lq7-AqOzqG-1",
-        "outputId": "0a74e09c-2587-4495-b4a9-8d536a43fbbd"
+        "outputId": "08dcb7b6-35ee-42c5-ae4f-b973a22f5ca7"
       },
-      "execution_count": 50,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -109,9 +108,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "yn1RECgZr3vc",
-        "outputId": "93e15931-d6d7-4d8f-ec4b-edd6ad92554f"
+        "outputId": "1551b684-0fef-4176-cb09-b0eddff4e7a2"
       },
-      "execution_count": 51,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -158,7 +157,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 51
+          "execution_count": 216
         }
       ]
     },
@@ -170,12 +169,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 597
+          "height": 423
         },
         "id": "19UcMUQfQJnS",
-        "outputId": "f44b769e-28c2-4fde-b63e-15a1c6b1c624"
+        "outputId": "65c09f42-3107-4515-da9a-d00273b36e8b"
       },
-      "execution_count": 52,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -211,7 +210,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-50e8f84c-d9e0-446d-951d-7a40646828aa\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-6020c6f4-4db6-44f3-9024-0198d5820c82\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -369,7 +368,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-50e8f84c-d9e0-446d-951d-7a40646828aa')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-6020c6f4-4db6-44f3-9024-0198d5820c82')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -421,12 +420,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-50e8f84c-d9e0-446d-951d-7a40646828aa button.colab-df-convert');\n",
+              "        document.querySelector('#df-6020c6f4-4db6-44f3-9024-0198d5820c82 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-50e8f84c-d9e0-446d-951d-7a40646828aa');\n",
+              "        const element = document.querySelector('#df-6020c6f4-4db6-44f3-9024-0198d5820c82');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -446,8 +445,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-f0a40ea7-cc35-4401-8dea-28ebcd9908a6\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-f0a40ea7-cc35-4401-8dea-28ebcd9908a6')\"\n",
+              "<div id=\"df-72ed2399-f31f-4f6e-a20f-65c24304a95a\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-72ed2399-f31f-4f6e-a20f-65c24304a95a')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -566,7 +565,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-f0a40ea7-cc35-4401-8dea-28ebcd9908a6 button');\n",
+              "        document.querySelector('#df-72ed2399-f31f-4f6e-a20f-65c24304a95a button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -577,7 +576,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 52
+          "execution_count": 217
         }
       ]
     },
@@ -589,7 +588,7 @@
       "metadata": {
         "id": "y-rCXh0sbbj_"
       },
-      "execution_count": 53,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -600,7 +599,7 @@
       "metadata": {
         "id": "s4sPLoNqbYrY"
       },
-      "execution_count": 54,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -631,9 +630,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "YEpEcCLFTD-d",
-        "outputId": "a00760b5-855d-4236-a6df-9458cdb5692e"
+        "outputId": "53ebe694-23ee-489d-ac8e-d047a86592ff"
       },
-      "execution_count": 55,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -653,7 +652,7 @@
       "metadata": {
         "id": "-n0WWCKaSV1Y"
       },
-      "execution_count": 56,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -673,13 +672,13 @@
       ],
       "metadata": {
         "id": "UZD00eWKv3YS",
-        "outputId": "9b654a38-ae4f-4514-a5bf-5d4817d21eb3",
+        "outputId": "abbd5800-b56c-4de8-96f4-6ee65843d554",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 597
+          "height": 423
         }
       },
-      "execution_count": 57,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -715,7 +714,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-02c9fc43-c925-470c-90f7-b12e5bcacef2\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-4851bc6e-1613-4c80-be5c-357d17b2dae1\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -873,7 +872,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-02c9fc43-c925-470c-90f7-b12e5bcacef2')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-4851bc6e-1613-4c80-be5c-357d17b2dae1')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -925,12 +924,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-02c9fc43-c925-470c-90f7-b12e5bcacef2 button.colab-df-convert');\n",
+              "        document.querySelector('#df-4851bc6e-1613-4c80-be5c-357d17b2dae1 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-02c9fc43-c925-470c-90f7-b12e5bcacef2');\n",
+              "        const element = document.querySelector('#df-4851bc6e-1613-4c80-be5c-357d17b2dae1');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -950,8 +949,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-538d6ce9-a184-4a6d-b90e-40a292bcc31e\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-538d6ce9-a184-4a6d-b90e-40a292bcc31e')\"\n",
+              "<div id=\"df-3f8318b3-7bdf-4a11-b43d-91493633b610\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-3f8318b3-7bdf-4a11-b43d-91493633b610')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1070,7 +1069,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-538d6ce9-a184-4a6d-b90e-40a292bcc31e button');\n",
+              "        document.querySelector('#df-3f8318b3-7bdf-4a11-b43d-91493633b610 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -1081,7 +1080,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 57
+          "execution_count": 222
         }
       ]
     },
@@ -1093,13 +1092,13 @@
       ],
       "metadata": {
         "id": "9j1kkXBDxFWi",
-        "outputId": "9907023b-e152-4130-a9f1-59e2d73c8c5f",
+        "outputId": "23acf073-9bb1-455c-c2a5-14dee13cb2a8",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 423
         }
       },
-      "execution_count": 58,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1135,7 +1134,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-d46ba5d1-2340-4f99-a7da-730bf77cbf78\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-b9a142b4-c895-4545-a501-856ed47b5ae5\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -1293,7 +1292,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-d46ba5d1-2340-4f99-a7da-730bf77cbf78')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-b9a142b4-c895-4545-a501-856ed47b5ae5')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1345,12 +1344,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-d46ba5d1-2340-4f99-a7da-730bf77cbf78 button.colab-df-convert');\n",
+              "        document.querySelector('#df-b9a142b4-c895-4545-a501-856ed47b5ae5 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-d46ba5d1-2340-4f99-a7da-730bf77cbf78');\n",
+              "        const element = document.querySelector('#df-b9a142b4-c895-4545-a501-856ed47b5ae5');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1370,8 +1369,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-42c81361-0dd3-41c9-80e3-3c8694aa4b94\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-42c81361-0dd3-41c9-80e3-3c8694aa4b94')\"\n",
+              "<div id=\"df-0926ac3d-ff28-4a73-81fa-43dfec21ac6f\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-0926ac3d-ff28-4a73-81fa-43dfec21ac6f')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1490,7 +1489,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-42c81361-0dd3-41c9-80e3-3c8694aa4b94 button');\n",
+              "        document.querySelector('#df-0926ac3d-ff28-4a73-81fa-43dfec21ac6f button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -1501,7 +1500,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 58
+          "execution_count": 223
         }
       ]
     },
@@ -1522,18 +1521,18 @@
       "metadata": {
         "id": "mkERh5iQ7PlE"
       },
-      "execution_count": 59,
+      "execution_count": null,
       "outputs": []
     },
     {
       "cell_type": "code",
       "source": [
-        "trans1 = december_events.groupby('InvoiceNo')['StockCode'].apply(list) #ทำการ group และทำให้ข้อมูลใน Description เป็นlist"
+        "trans1 = december_events.groupby('InvoiceNo')['StockCode'].apply(list)"
       ],
       "metadata": {
         "id": "A8db_OBqkQf1"
       },
-      "execution_count": 60,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1548,49 +1547,49 @@
       ],
       "metadata": {
         "id": "vMFahcDRdIV3",
-        "outputId": "8a5bc210-ba2f-4350-d175-2c07315eb783",
+        "outputId": "be44f2be-85ea-4231-8c3b-fefbce1eadf7",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 61,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
             "yes\n",
-            "RelationRecord(items=frozenset({'22112', '21479'}), support=0.02532894736842105, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22112', '21479'}), confidence=0.02532894736842105, lift=1.0), OrderedStatistic(items_base=frozenset({'21479'}), items_add=frozenset({'22112'}), confidence=0.4425287356321839, lift=6.257150494520182), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'21479'}), confidence=0.3581395348837209, lift=6.2571504945201815)])\n",
+            "RelationRecord(items=frozenset({'21479', '22112'}), support=0.02532894736842105, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21479', '22112'}), confidence=0.02532894736842105, lift=1.0), OrderedStatistic(items_base=frozenset({'21479'}), items_add=frozenset({'22112'}), confidence=0.4425287356321839, lift=6.257150494520182), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'21479'}), confidence=0.3581395348837209, lift=6.2571504945201815)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22111', '21485'}), support=0.02894736842105263, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22111', '21485'}), confidence=0.02894736842105263, lift=1.0), OrderedStatistic(items_base=frozenset({'21485'}), items_add=frozenset({'22111'}), confidence=0.5207100591715976, lift=7.228121369322634), OrderedStatistic(items_base=frozenset({'22111'}), items_add=frozenset({'21485'}), confidence=0.4018264840182648, lift=7.228121369322634)])\n",
+            "RelationRecord(items=frozenset({'21485', '22111'}), support=0.02894736842105263, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21485', '22111'}), confidence=0.02894736842105263, lift=1.0), OrderedStatistic(items_base=frozenset({'21485'}), items_add=frozenset({'22111'}), confidence=0.5207100591715976, lift=7.228121369322634), OrderedStatistic(items_base=frozenset({'22111'}), items_add=frozenset({'21485'}), confidence=0.4018264840182648, lift=7.228121369322634)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22112', '21485'}), support=0.02631578947368421, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22112', '21485'}), confidence=0.02631578947368421, lift=1.0), OrderedStatistic(items_base=frozenset({'21485'}), items_add=frozenset({'22112'}), confidence=0.47337278106508873, lift=6.693270950873813), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'21485'}), confidence=0.37209302325581395, lift=6.6932709508738135)])\n",
+            "RelationRecord(items=frozenset({'21485', '22112'}), support=0.02631578947368421, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21485', '22112'}), confidence=0.02631578947368421, lift=1.0), OrderedStatistic(items_base=frozenset({'21485'}), items_add=frozenset({'22112'}), confidence=0.47337278106508873, lift=6.693270950873813), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'21485'}), confidence=0.37209302325581395, lift=6.6932709508738135)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'85123A', '21733'}), support=0.02763157894736842, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85123A', '21733'}), confidence=0.02763157894736842, lift=1.0), OrderedStatistic(items_base=frozenset({'21733'}), items_add=frozenset({'85123A'}), confidence=0.65625, lift=6.717171717171717), OrderedStatistic(items_base=frozenset({'85123A'}), items_add=frozenset({'21733'}), confidence=0.2828282828282828, lift=6.717171717171717)])\n",
+            "RelationRecord(items=frozenset({'21733', '85123A'}), support=0.02763157894736842, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21733', '85123A'}), confidence=0.02763157894736842, lift=1.0), OrderedStatistic(items_base=frozenset({'21733'}), items_add=frozenset({'85123A'}), confidence=0.65625, lift=6.717171717171717), OrderedStatistic(items_base=frozenset({'85123A'}), items_add=frozenset({'21733'}), confidence=0.2828282828282828, lift=6.717171717171717)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22910', '22086'}), support=0.047697368421052634, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22910', '22086'}), confidence=0.047697368421052634, lift=1.0), OrderedStatistic(items_base=frozenset({'22086'}), items_add=frozenset({'22910'}), confidence=0.5160142348754448, lift=7.195794834960331), OrderedStatistic(items_base=frozenset({'22910'}), items_add=frozenset({'22086'}), confidence=0.6651376146788991, lift=7.195794834960332)])\n",
+            "RelationRecord(items=frozenset({'22086', '22910'}), support=0.047697368421052634, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22086', '22910'}), confidence=0.047697368421052634, lift=1.0), OrderedStatistic(items_base=frozenset({'22086'}), items_add=frozenset({'22910'}), confidence=0.5160142348754448, lift=7.195794834960331), OrderedStatistic(items_base=frozenset({'22910'}), items_add=frozenset({'22086'}), confidence=0.6651376146788991, lift=7.195794834960332)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22112', '22111'}), support=0.03289473684210526, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22112', '22111'}), confidence=0.03289473684210526, lift=1.0), OrderedStatistic(items_base=frozenset({'22111'}), items_add=frozenset({'22112'}), confidence=0.45662100456621, lift=6.456408622703621), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'22111'}), confidence=0.46511627906976744, lift=6.456408622703621)])\n",
+            "RelationRecord(items=frozenset({'22111', '22112'}), support=0.03289473684210526, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22111', '22112'}), confidence=0.03289473684210526, lift=1.0), OrderedStatistic(items_base=frozenset({'22111'}), items_add=frozenset({'22112'}), confidence=0.45662100456621, lift=6.456408622703621), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'22111'}), confidence=0.46511627906976744, lift=6.456408622703621)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22112', '22114'}), support=0.02598684210526316, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22112', '22114'}), confidence=0.02598684210526316, lift=1.0), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'22114'}), confidence=0.3674418604651163, lift=7.253397765025673), OrderedStatistic(items_base=frozenset({'22114'}), items_add=frozenset({'22112'}), confidence=0.512987012987013, lift=7.253397765025673)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22112', '22835'}), support=0.036513157894736845, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22112', '22835'}), confidence=0.036513157894736845, lift=1.0), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'22835'}), confidence=0.5162790697674419, lift=9.748374981944245), OrderedStatistic(items_base=frozenset({'22835'}), items_add=frozenset({'22112'}), confidence=0.68944099378882, lift=9.748374981944245)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22470', '22469'}), support=0.02598684210526316, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22469', '22470'}), confidence=0.02598684210526316, lift=1.0), OrderedStatistic(items_base=frozenset({'22469'}), items_add=frozenset({'22470'}), confidence=0.45142857142857146, lift=9.399608610567515), OrderedStatistic(items_base=frozenset({'22470'}), items_add=frozenset({'22469'}), confidence=0.541095890410959, lift=9.399608610567515)])\n",
+            "RelationRecord(items=frozenset({'22469', '22470'}), support=0.02598684210526316, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22469', '22470'}), confidence=0.02598684210526316, lift=1.0), OrderedStatistic(items_base=frozenset({'22469'}), items_add=frozenset({'22470'}), confidence=0.45142857142857146, lift=9.399608610567515), OrderedStatistic(items_base=frozenset({'22470'}), items_add=frozenset({'22469'}), confidence=0.541095890410959, lift=9.399608610567515)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22697', '22699'}), support=0.02532894736842105, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22697', '22699'}), confidence=0.02532894736842105, lift=1.0), OrderedStatistic(items_base=frozenset({'22697'}), items_add=frozenset({'22699'}), confidence=0.7549019607843137, lift=22.499038831218762), OrderedStatistic(items_base=frozenset({'22699'}), items_add=frozenset({'22697'}), confidence=0.7549019607843137, lift=22.499038831218762)])\n",
+            "RelationRecord(items=frozenset({'22699', '22697'}), support=0.02532894736842105, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22699', '22697'}), confidence=0.02532894736842105, lift=1.0), OrderedStatistic(items_base=frozenset({'22697'}), items_add=frozenset({'22699'}), confidence=0.7549019607843137, lift=22.499038831218762), OrderedStatistic(items_base=frozenset({'22699'}), items_add=frozenset({'22697'}), confidence=0.7549019607843137, lift=22.499038831218762)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22727', '22726'}), support=0.03684210526315789, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22727', '22726'}), confidence=0.03684210526315789, lift=1.0), OrderedStatistic(items_base=frozenset({'22726'}), items_add=frozenset({'22727'}), confidence=0.7088607594936708, lift=14.462662475575565), OrderedStatistic(items_base=frozenset({'22727'}), items_add=frozenset({'22726'}), confidence=0.7516778523489932, lift=14.462662475575565)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22865', '22866'}), support=0.030263157894736843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22865', '22866'}), confidence=0.030263157894736843, lift=1.0), OrderedStatistic(items_base=frozenset({'22865'}), items_add=frozenset({'22866'}), confidence=0.5679012345679012, lift=12.69426289034132), OrderedStatistic(items_base=frozenset({'22866'}), items_add=frozenset({'22865'}), confidence=0.6764705882352942, lift=12.694262890341323)])\n",
+            "RelationRecord(items=frozenset({'22866', '22865'}), support=0.030263157894736843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22866', '22865'}), confidence=0.030263157894736843, lift=1.0), OrderedStatistic(items_base=frozenset({'22865'}), items_add=frozenset({'22866'}), confidence=0.5679012345679012, lift=12.69426289034132), OrderedStatistic(items_base=frozenset({'22866'}), items_add=frozenset({'22865'}), confidence=0.6764705882352942, lift=12.694262890341323)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22865', '22867'}), support=0.030263157894736843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22865', '22867'}), confidence=0.030263157894736843, lift=1.0), OrderedStatistic(items_base=frozenset({'22865'}), items_add=frozenset({'22867'}), confidence=0.5679012345679012, lift=9.809203142536475), OrderedStatistic(items_base=frozenset({'22867'}), items_add=frozenset({'22865'}), confidence=0.5227272727272727, lift=9.809203142536475)])\n",
+            "RelationRecord(items=frozenset({'22867', '22865'}), support=0.030263157894736843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22867', '22865'}), confidence=0.030263157894736843, lift=1.0), OrderedStatistic(items_base=frozenset({'22865'}), items_add=frozenset({'22867'}), confidence=0.5679012345679012, lift=9.809203142536475), OrderedStatistic(items_base=frozenset({'22867'}), items_add=frozenset({'22865'}), confidence=0.5227272727272727, lift=9.809203142536475)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22867', '22866'}), support=0.027960526315789474, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22866', '22867'}), confidence=0.027960526315789474, lift=1.0), OrderedStatistic(items_base=frozenset({'22866'}), items_add=frozenset({'22867'}), confidence=0.625, lift=10.795454545454545), OrderedStatistic(items_base=frozenset({'22867'}), items_add=frozenset({'22866'}), confidence=0.48295454545454547, lift=10.795454545454545)])\n",
+            "RelationRecord(items=frozenset({'22866', '22867'}), support=0.027960526315789474, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22866', '22867'}), confidence=0.027960526315789474, lift=1.0), OrderedStatistic(items_base=frozenset({'22866'}), items_add=frozenset({'22867'}), confidence=0.625, lift=10.795454545454545), OrderedStatistic(items_base=frozenset({'22867'}), items_add=frozenset({'22866'}), confidence=0.48295454545454547, lift=10.795454545454545)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22961', '22960'}), support=0.02763157894736842, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22961', '22960'}), confidence=0.02763157894736842, lift=1.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'22961'}), confidence=0.5562913907284768, lift=9.608669476219145), OrderedStatistic(items_base=frozenset({'22961'}), items_add=frozenset({'22960'}), confidence=0.47727272727272724, lift=9.608669476219145)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'84029G', '84029E'}), support=0.02598684210526316, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'84029G', '84029E'}), confidence=0.02598684210526316, lift=1.0), OrderedStatistic(items_base=frozenset({'84029E'}), items_add=frozenset({'84029G'}), confidence=0.4759036144578313, lift=9.099037660074258), OrderedStatistic(items_base=frozenset({'84029G'}), items_add=frozenset({'84029E'}), confidence=0.4968553459119497, lift=9.09903766007426)])\n"
+            "RelationRecord(items=frozenset({'84029E', '84029G'}), support=0.02598684210526316, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'84029E', '84029G'}), confidence=0.02598684210526316, lift=1.0), OrderedStatistic(items_base=frozenset({'84029E'}), items_add=frozenset({'84029G'}), confidence=0.4759036144578313, lift=9.099037660074258), OrderedStatistic(items_base=frozenset({'84029G'}), items_add=frozenset({'84029E'}), confidence=0.4968553459119497, lift=9.09903766007426)])\n"
           ]
         }
       ]
@@ -1598,98 +1597,85 @@
     {
       "cell_type": "code",
       "source": [
-        "import pandas as pd\n",
-        "from apyori import apriori\n",
+        "frequent_itemsets = list(apriori(trans1, min_support = min_sup))\n",
         "\n",
-        "# Replace 'transactions' with your actual list of transaction sets.\n",
-        "frequent_itemsets = list(apriori(trans1, min_support=min_sup))\n",
-        "\n",
-        "# Prepare a list to collect the results.\n",
         "results = []\n",
         "\n",
-        "# Process each frequent itemset generated by the apriori algorithm.\n",
         "for itemset in frequent_itemsets:\n",
-        "    # Check if the itemset has more than one item.\n",
         "    if len(itemset.items) > 1:\n",
-        "        # Store the basic itemset information.\n",
         "        item_info = {\n",
         "            \"yes\": 'yes',\n",
         "            \"Items\": ', '.join(itemset.items),\n",
         "            \"Support\": f\"{itemset.support:.4f} ({itemset.support*100:.2f}%)\"\n",
         "        }\n",
-        "        rules_info = []\n",
         "\n",
-        "        # Now process the rules associated with the itemset.\n",
+        "        rules_info = []\n",
         "        for rule_number, ordered_stat in enumerate(itemset.ordered_statistics, start=1):\n",
         "            base_items = ', '.join(ordered_stat.items_base) if ordered_stat.items_base else 'None'\n",
         "            add_items = ', '.join(ordered_stat.items_add)\n",
-        "            # Store the rule information.\n",
+        "\n",
         "            rules_info.append(f\"Rule {rule_number}: ({base_items} -> {add_items} : Confidence={ordered_stat.confidence:.4f}, Lift={ordered_stat.lift:.4f})\")\n",
         "\n",
-        "        # Add the itemset information and all its rules to the results.\n",
         "        item_info.update({\"Rules\": '\\n'.join(rules_info)})\n",
         "        results.append(item_info)\n",
         "\n",
-        "# Convert the results list to a DataFrame for display.\n",
         "results_df = pd.DataFrame(results)\n",
         "\n",
-        "# If you want to display the DataFrame in Google Colab:\n",
-        "results_df\n",
-        "\n"
+        "results_df"
       ],
       "metadata": {
         "id": "fpVZJ1OYdPEc",
-        "outputId": "5661c245-fc80-42f6-9a01-3383506c3e31",
+        "outputId": "f1d97554-ff31-4a8b-e640-809eaa9fe7cd",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 758
+          "height": 551
         }
       },
-      "execution_count": 62,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
               "    yes           Items         Support  \\\n",
-              "0   yes    22112, 21479  0.0253 (2.53%)   \n",
-              "1   yes    22111, 21485  0.0289 (2.89%)   \n",
-              "2   yes    22112, 21485  0.0263 (2.63%)   \n",
-              "3   yes   85123A, 21733  0.0276 (2.76%)   \n",
-              "4   yes    22910, 22086  0.0477 (4.77%)   \n",
-              "5   yes    22112, 22111  0.0329 (3.29%)   \n",
+              "0   yes    21479, 22112  0.0253 (2.53%)   \n",
+              "1   yes    21485, 22111  0.0289 (2.89%)   \n",
+              "2   yes    21485, 22112  0.0263 (2.63%)   \n",
+              "3   yes   21733, 85123A  0.0276 (2.76%)   \n",
+              "4   yes    22086, 22910  0.0477 (4.77%)   \n",
+              "5   yes    22111, 22112  0.0329 (3.29%)   \n",
               "6   yes    22112, 22114  0.0260 (2.60%)   \n",
               "7   yes    22112, 22835  0.0365 (3.65%)   \n",
-              "8   yes    22470, 22469  0.0260 (2.60%)   \n",
-              "9   yes    22697, 22699  0.0253 (2.53%)   \n",
+              "8   yes    22469, 22470  0.0260 (2.60%)   \n",
+              "9   yes    22699, 22697  0.0253 (2.53%)   \n",
               "10  yes    22727, 22726  0.0368 (3.68%)   \n",
-              "11  yes    22865, 22866  0.0303 (3.03%)   \n",
-              "12  yes    22865, 22867  0.0303 (3.03%)   \n",
-              "13  yes    22867, 22866  0.0280 (2.80%)   \n",
+              "11  yes    22866, 22865  0.0303 (3.03%)   \n",
+              "12  yes    22867, 22865  0.0303 (3.03%)   \n",
+              "13  yes    22866, 22867  0.0280 (2.80%)   \n",
               "14  yes    22961, 22960  0.0276 (2.76%)   \n",
-              "15  yes  84029G, 84029E  0.0260 (2.60%)   \n",
+              "15  yes  84029E, 84029G  0.0260 (2.60%)   \n",
               "\n",
               "                                                Rules  \n",
-              "0   Rule 1: (None -> 22112, 21479 : Confidence=0.0...  \n",
-              "1   Rule 1: (None -> 22111, 21485 : Confidence=0.0...  \n",
-              "2   Rule 1: (None -> 22112, 21485 : Confidence=0.0...  \n",
-              "3   Rule 1: (None -> 85123A, 21733 : Confidence=0....  \n",
-              "4   Rule 1: (None -> 22910, 22086 : Confidence=0.0...  \n",
-              "5   Rule 1: (None -> 22112, 22111 : Confidence=0.0...  \n",
+              "0   Rule 1: (None -> 21479, 22112 : Confidence=0.0...  \n",
+              "1   Rule 1: (None -> 21485, 22111 : Confidence=0.0...  \n",
+              "2   Rule 1: (None -> 21485, 22112 : Confidence=0.0...  \n",
+              "3   Rule 1: (None -> 21733, 85123A : Confidence=0....  \n",
+              "4   Rule 1: (None -> 22086, 22910 : Confidence=0.0...  \n",
+              "5   Rule 1: (None -> 22111, 22112 : Confidence=0.0...  \n",
               "6   Rule 1: (None -> 22112, 22114 : Confidence=0.0...  \n",
               "7   Rule 1: (None -> 22112, 22835 : Confidence=0.0...  \n",
               "8   Rule 1: (None -> 22469, 22470 : Confidence=0.0...  \n",
-              "9   Rule 1: (None -> 22697, 22699 : Confidence=0.0...  \n",
+              "9   Rule 1: (None -> 22699, 22697 : Confidence=0.0...  \n",
               "10  Rule 1: (None -> 22727, 22726 : Confidence=0.0...  \n",
-              "11  Rule 1: (None -> 22865, 22866 : Confidence=0.0...  \n",
-              "12  Rule 1: (None -> 22865, 22867 : Confidence=0.0...  \n",
+              "11  Rule 1: (None -> 22866, 22865 : Confidence=0.0...  \n",
+              "12  Rule 1: (None -> 22867, 22865 : Confidence=0.0...  \n",
               "13  Rule 1: (None -> 22866, 22867 : Confidence=0.0...  \n",
               "14  Rule 1: (None -> 22961, 22960 : Confidence=0.0...  \n",
-              "15  Rule 1: (None -> 84029G, 84029E : Confidence=0...  "
+              "15  Rule 1: (None -> 84029E, 84029G : Confidence=0...  "
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-5c2101f6-b7b6-47cf-bd1f-28e6bcb078f0\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-950c50b6-3ed6-4524-823b-b20ee25c434a\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -1718,44 +1704,44 @@
               "    <tr>\n",
               "      <th>0</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22112, 21479</td>\n",
+              "      <td>21479, 22112</td>\n",
               "      <td>0.0253 (2.53%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22112, 21479 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21479, 22112 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>1</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22111, 21485</td>\n",
+              "      <td>21485, 22111</td>\n",
               "      <td>0.0289 (2.89%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22111, 21485 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21485, 22111 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>2</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22112, 21485</td>\n",
+              "      <td>21485, 22112</td>\n",
               "      <td>0.0263 (2.63%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22112, 21485 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21485, 22112 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>3</th>\n",
               "      <td>yes</td>\n",
-              "      <td>85123A, 21733</td>\n",
+              "      <td>21733, 85123A</td>\n",
               "      <td>0.0276 (2.76%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 85123A, 21733 : Confidence=0....</td>\n",
+              "      <td>Rule 1: (None -&gt; 21733, 85123A : Confidence=0....</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>4</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22910, 22086</td>\n",
+              "      <td>22086, 22910</td>\n",
               "      <td>0.0477 (4.77%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22910, 22086 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22086, 22910 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>5</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22112, 22111</td>\n",
+              "      <td>22111, 22112</td>\n",
               "      <td>0.0329 (3.29%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22112, 22111 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22111, 22112 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>6</th>\n",
@@ -1774,16 +1760,16 @@
               "    <tr>\n",
               "      <th>8</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22470, 22469</td>\n",
+              "      <td>22469, 22470</td>\n",
               "      <td>0.0260 (2.60%)</td>\n",
               "      <td>Rule 1: (None -&gt; 22469, 22470 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>9</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22697, 22699</td>\n",
+              "      <td>22699, 22697</td>\n",
               "      <td>0.0253 (2.53%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22697, 22699 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22699, 22697 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>10</th>\n",
@@ -1795,21 +1781,21 @@
               "    <tr>\n",
               "      <th>11</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22865, 22866</td>\n",
+              "      <td>22866, 22865</td>\n",
               "      <td>0.0303 (3.03%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22865, 22866 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22866, 22865 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>12</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22865, 22867</td>\n",
+              "      <td>22867, 22865</td>\n",
               "      <td>0.0303 (3.03%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22865, 22867 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22867, 22865 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>13</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22867, 22866</td>\n",
+              "      <td>22866, 22867</td>\n",
               "      <td>0.0280 (2.80%)</td>\n",
               "      <td>Rule 1: (None -&gt; 22866, 22867 : Confidence=0.0...</td>\n",
               "    </tr>\n",
@@ -1823,9 +1809,9 @@
               "    <tr>\n",
               "      <th>15</th>\n",
               "      <td>yes</td>\n",
-              "      <td>84029G, 84029E</td>\n",
+              "      <td>84029E, 84029G</td>\n",
               "      <td>0.0260 (2.60%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 84029G, 84029E : Confidence=0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 84029E, 84029G : Confidence=0...</td>\n",
               "    </tr>\n",
               "  </tbody>\n",
               "</table>\n",
@@ -1833,7 +1819,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-5c2101f6-b7b6-47cf-bd1f-28e6bcb078f0')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-950c50b6-3ed6-4524-823b-b20ee25c434a')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1885,12 +1871,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-5c2101f6-b7b6-47cf-bd1f-28e6bcb078f0 button.colab-df-convert');\n",
+              "        document.querySelector('#df-950c50b6-3ed6-4524-823b-b20ee25c434a button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-5c2101f6-b7b6-47cf-bd1f-28e6bcb078f0');\n",
+              "        const element = document.querySelector('#df-950c50b6-3ed6-4524-823b-b20ee25c434a');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1910,8 +1896,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-14ae2567-e530-4250-9e5d-df4d543fea72\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-14ae2567-e530-4250-9e5d-df4d543fea72')\"\n",
+              "<div id=\"df-68eacf02-f42b-4e54-a8ea-dc17fa486c36\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-68eacf02-f42b-4e54-a8ea-dc17fa486c36')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2030,7 +2016,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-14ae2567-e530-4250-9e5d-df4d543fea72 button');\n",
+              "        document.querySelector('#df-68eacf02-f42b-4e54-a8ea-dc17fa486c36 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -2041,14 +2027,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 62
-        },
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "No charts were generated by quickchart\n"
-          ]
+          "execution_count": 227
         }
       ]
     },
@@ -2059,12 +2038,12 @@
       ],
       "metadata": {
         "id": "A0J0ndzkdWLs",
-        "outputId": "ac4e035a-1e4e-4ad5-d5e6-6a426e4ee886",
+        "outputId": "b30dbc04-2a73-46bd-be6e-8208ed3d31ab",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 63,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2074,7 +2053,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 63
+          "execution_count": 228
         }
       ]
     },
@@ -2094,12 +2073,12 @@
       ],
       "metadata": {
         "id": "wNbGig6WxT4u",
-        "outputId": "ffcbadb7-4edb-4b4e-d614-a1988d70ded5",
+        "outputId": "797a20cc-ab08-45f9-9a01-fea6ff2bf94e",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 64,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2121,26 +2100,26 @@
             ]
           },
           "metadata": {},
-          "execution_count": 64
+          "execution_count": 253
         }
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "Europe_1 = Europe.groupby('InvoiceNo')['StockCode'].apply(list) #ทำการ group และทำให้ข้อมูลใน Description เป็นlist"
+        "trans2 = Europe.groupby('InvoiceNo')['StockCode'].apply(list)"
       ],
       "metadata": {
         "id": "mS_KIuAzxQfT"
       },
-      "execution_count": 65,
+      "execution_count": null,
       "outputs": []
     },
     {
       "cell_type": "code",
       "source": [
         "min_sup = 0.025\n",
-        "frequentItemsets = list(apriori(Europe_1,min_support = min_sup))\n",
+        "frequentItemsets = list(apriori(trans2,min_support = min_sup))\n",
         "for i in frequentItemsets:\n",
         "    if i[0].__len__()>1:\n",
         "        print('yes')\n",
@@ -2148,12 +2127,12 @@
       ],
       "metadata": {
         "id": "kMfgXIBwxXg1",
-        "outputId": "9f9528d3-da44-44db-beef-eb26e6ab1524",
+        "outputId": "8e325cea-9c24-48db-fa7d-a439b85bfb7b",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 66,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -2164,13 +2143,13 @@
             "yes\n",
             "RelationRecord(items=frozenset({'20725', '22383'}), support=0.0255984555984556, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'20725', '22383'}), confidence=0.0255984555984556, lift=1.0), OrderedStatistic(items_base=frozenset({'20725'}), items_add=frozenset({'22383'}), confidence=0.41231343283582095, lift=8.176813101414826), OrderedStatistic(items_base=frozenset({'22383'}), items_add=frozenset({'20725'}), confidence=0.5076569678407351, lift=8.176813101414826)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'21931', '85099B'}), support=0.0283011583011583, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21931', '85099B'}), confidence=0.0283011583011583, lift=1.0), OrderedStatistic(items_base=frozenset({'21931'}), items_add=frozenset({'85099B'}), confidence=0.6103247293921732, lift=7.403939340167346), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'21931'}), confidence=0.3433255269320843, lift=7.403939340167347)])\n",
+            "RelationRecord(items=frozenset({'85099B', '21931'}), support=0.0283011583011583, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85099B', '21931'}), confidence=0.0283011583011583, lift=1.0), OrderedStatistic(items_base=frozenset({'21931'}), items_add=frozenset({'85099B'}), confidence=0.6103247293921732, lift=7.403939340167346), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'21931'}), confidence=0.3433255269320843, lift=7.403939340167347)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'85099B', '22386'}), support=0.03216216216216216, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85099B', '22386'}), confidence=0.03216216216216216, lift=1.0), OrderedStatistic(items_base=frozenset({'22386'}), items_add=frozenset({'85099B'}), confidence=0.6766856214459789, lift=8.20897311262335), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'22386'}), confidence=0.39016393442622943, lift=8.20897311262335)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'85099B', '22411'}), support=0.02637065637065637, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85099B', '22411'}), confidence=0.02637065637065637, lift=1.0), OrderedStatistic(items_base=frozenset({'22411'}), items_add=frozenset({'85099B'}), confidence=0.5754001684919966, lift=6.980264339083237), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'22411'}), confidence=0.31990632318501167, lift=6.980264339083237)])\n",
+            "RelationRecord(items=frozenset({'22411', '85099B'}), support=0.02637065637065637, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22411', '85099B'}), confidence=0.02637065637065637, lift=1.0), OrderedStatistic(items_base=frozenset({'22411'}), items_add=frozenset({'85099B'}), confidence=0.5754001684919966, lift=6.980264339083237), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'22411'}), confidence=0.31990632318501167, lift=6.980264339083237)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22697', '22699'}), support=0.03027027027027027, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22697', '22699'}), confidence=0.03027027027027027, lift=1.0), OrderedStatistic(items_base=frozenset({'22697'}), items_add=frozenset({'22699'}), confidence=0.7417218543046358, lift=17.1523178807947), OrderedStatistic(items_base=frozenset({'22699'}), items_add=frozenset({'22697'}), confidence=0.7, lift=17.1523178807947)])\n"
+            "RelationRecord(items=frozenset({'22699', '22697'}), support=0.03027027027027027, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22699', '22697'}), confidence=0.03027027027027027, lift=1.0), OrderedStatistic(items_base=frozenset({'22697'}), items_add=frozenset({'22699'}), confidence=0.7417218543046358, lift=17.1523178807947), OrderedStatistic(items_base=frozenset({'22699'}), items_add=frozenset({'22697'}), confidence=0.7, lift=17.1523178807947)])\n"
           ]
         }
       ]
@@ -2178,54 +2157,41 @@
     {
       "cell_type": "code",
       "source": [
-        "import pandas as pd\n",
-        "from apyori import apriori\n",
+        "frequent_itemsets = list(apriori(trans2, min_support = min_sup))\n",
         "\n",
-        "# Replace 'transactions' with your actual list of transaction sets.\n",
-        "frequent_itemsets = list(apriori(Europe_1, min_support=min_sup))\n",
-        "\n",
-        "# Prepare a list to collect the results.\n",
         "results = []\n",
         "\n",
-        "# Process each frequent itemset generated by the apriori algorithm.\n",
         "for itemset in frequent_itemsets:\n",
-        "    # Check if the itemset has more than one item.\n",
         "    if len(itemset.items) > 1:\n",
-        "        # Store the basic itemset information.\n",
         "        item_info = {\n",
         "            \"yes\": 'yes',\n",
         "            \"Items\": ', '.join(itemset.items),\n",
         "            \"Support\": f\"{itemset.support:.4f} ({itemset.support*100:.2f}%)\"\n",
         "        }\n",
-        "        rules_info = []\n",
         "\n",
-        "        # Now process the rules associated with the itemset.\n",
+        "        rules_info = []\n",
         "        for rule_number, ordered_stat in enumerate(itemset.ordered_statistics, start=1):\n",
         "            base_items = ', '.join(ordered_stat.items_base) if ordered_stat.items_base else 'None'\n",
         "            add_items = ', '.join(ordered_stat.items_add)\n",
-        "            # Store the rule information.\n",
+        "\n",
         "            rules_info.append(f\"Rule {rule_number}: ({base_items} -> {add_items} : Confidence={ordered_stat.confidence:.4f}, Lift={ordered_stat.lift:.4f})\")\n",
         "\n",
-        "        # Add the itemset information and all its rules to the results.\n",
         "        item_info.update({\"Rules\": '\\n'.join(rules_info)})\n",
         "        results.append(item_info)\n",
         "\n",
-        "# Convert the results list to a DataFrame for display.\n",
         "results_df = pd.DataFrame(results)\n",
         "\n",
-        "# If you want to display the DataFrame in Google Colab:\n",
-        "results_df\n",
-        "\n"
+        "results_df"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 363
+          "height": 237
         },
         "id": "jH9-DEYwYn28",
-        "outputId": "2e2c6bc3-38eb-4129-ffb5-afb609a9411f"
+        "outputId": "9ec80521-40fe-4e28-957c-4b416fdc3d20"
       },
-      "execution_count": 67,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2234,22 +2200,22 @@
               "   yes          Items         Support  \\\n",
               "0  yes   20725, 20727  0.0250 (2.50%)   \n",
               "1  yes   20725, 22383  0.0256 (2.56%)   \n",
-              "2  yes  21931, 85099B  0.0283 (2.83%)   \n",
+              "2  yes  85099B, 21931  0.0283 (2.83%)   \n",
               "3  yes  85099B, 22386  0.0322 (3.22%)   \n",
-              "4  yes  85099B, 22411  0.0264 (2.64%)   \n",
-              "5  yes   22697, 22699  0.0303 (3.03%)   \n",
+              "4  yes  22411, 85099B  0.0264 (2.64%)   \n",
+              "5  yes   22699, 22697  0.0303 (3.03%)   \n",
               "\n",
               "                                               Rules  \n",
               "0  Rule 1: (None -> 20725, 20727 : Confidence=0.0...  \n",
               "1  Rule 1: (None -> 20725, 22383 : Confidence=0.0...  \n",
-              "2  Rule 1: (None -> 21931, 85099B : Confidence=0....  \n",
+              "2  Rule 1: (None -> 85099B, 21931 : Confidence=0....  \n",
               "3  Rule 1: (None -> 85099B, 22386 : Confidence=0....  \n",
-              "4  Rule 1: (None -> 85099B, 22411 : Confidence=0....  \n",
-              "5  Rule 1: (None -> 22697, 22699 : Confidence=0.0...  "
+              "4  Rule 1: (None -> 22411, 85099B : Confidence=0....  \n",
+              "5  Rule 1: (None -> 22699, 22697 : Confidence=0.0...  "
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-cf04a34a-c0e1-48b5-beef-27e6b86332c6\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-f1c9f3a6-ab64-4149-a791-ed7d6d8ce757\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -2292,9 +2258,9 @@
               "    <tr>\n",
               "      <th>2</th>\n",
               "      <td>yes</td>\n",
-              "      <td>21931, 85099B</td>\n",
+              "      <td>85099B, 21931</td>\n",
               "      <td>0.0283 (2.83%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 21931, 85099B : Confidence=0....</td>\n",
+              "      <td>Rule 1: (None -&gt; 85099B, 21931 : Confidence=0....</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>3</th>\n",
@@ -2306,16 +2272,16 @@
               "    <tr>\n",
               "      <th>4</th>\n",
               "      <td>yes</td>\n",
-              "      <td>85099B, 22411</td>\n",
+              "      <td>22411, 85099B</td>\n",
               "      <td>0.0264 (2.64%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 85099B, 22411 : Confidence=0....</td>\n",
+              "      <td>Rule 1: (None -&gt; 22411, 85099B : Confidence=0....</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>5</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22697, 22699</td>\n",
+              "      <td>22699, 22697</td>\n",
               "      <td>0.0303 (3.03%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22697, 22699 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22699, 22697 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "  </tbody>\n",
               "</table>\n",
@@ -2323,7 +2289,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-cf04a34a-c0e1-48b5-beef-27e6b86332c6')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f1c9f3a6-ab64-4149-a791-ed7d6d8ce757')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2375,12 +2341,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-cf04a34a-c0e1-48b5-beef-27e6b86332c6 button.colab-df-convert');\n",
+              "        document.querySelector('#df-f1c9f3a6-ab64-4149-a791-ed7d6d8ce757 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-cf04a34a-c0e1-48b5-beef-27e6b86332c6');\n",
+              "        const element = document.querySelector('#df-f1c9f3a6-ab64-4149-a791-ed7d6d8ce757');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -2400,8 +2366,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-719b3f9a-2ee3-481f-bb19-675adf7f017f\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-719b3f9a-2ee3-481f-bb19-675adf7f017f')\"\n",
+              "<div id=\"df-e1543b01-fb94-4a19-b0f4-bb240ac5bfe3\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-e1543b01-fb94-4a19-b0f4-bb240ac5bfe3')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2520,7 +2486,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-719b3f9a-2ee3-481f-bb19-675adf7f017f button');\n",
+              "        document.querySelector('#df-e1543b01-fb94-4a19-b0f4-bb240ac5bfe3 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -2531,7 +2497,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 67
+          "execution_count": 257
         }
       ]
     },
@@ -2542,12 +2508,12 @@
       ],
       "metadata": {
         "id": "ABZRzEYtzL1Q",
-        "outputId": "2518bb5b-345d-4727-fcfb-750279ae0786",
+        "outputId": "e0029b19-9fe1-44c0-a542-fcc335a9a54f",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 68,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2557,7 +2523,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 68
+          "execution_count": 233
         }
       ]
     },
@@ -2579,13 +2545,13 @@
       ],
       "metadata": {
         "id": "nJrs79BQ2DJC",
-        "outputId": "ff4403aa-8184-4554-e49e-d8716859a337",
+        "outputId": "0877d9f3-ea5e-49cb-c6fa-4782b4802ff7",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 597
+          "height": 423
         }
       },
-      "execution_count": 69,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2621,7 +2587,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-4f77b0e6-88d1-440c-847d-85d2d3a8672b\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-19a10643-66c4-4fc6-b81d-238bf537868d\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -2779,7 +2745,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-4f77b0e6-88d1-440c-847d-85d2d3a8672b')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-19a10643-66c4-4fc6-b81d-238bf537868d')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2831,12 +2797,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-4f77b0e6-88d1-440c-847d-85d2d3a8672b button.colab-df-convert');\n",
+              "        document.querySelector('#df-19a10643-66c4-4fc6-b81d-238bf537868d button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-4f77b0e6-88d1-440c-847d-85d2d3a8672b');\n",
+              "        const element = document.querySelector('#df-19a10643-66c4-4fc6-b81d-238bf537868d');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -2856,8 +2822,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-b87890ba-8773-426f-9f71-044b98b4aeca\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-b87890ba-8773-426f-9f71-044b98b4aeca')\"\n",
+              "<div id=\"df-87f60df8-4f74-449a-892d-3569e52d582d\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-87f60df8-4f74-449a-892d-3569e52d582d')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2976,7 +2942,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-b87890ba-8773-426f-9f71-044b98b4aeca button');\n",
+              "        document.querySelector('#df-87f60df8-4f74-449a-892d-3569e52d582d button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -2987,26 +2953,26 @@
             ]
           },
           "metadata": {},
-          "execution_count": 69
+          "execution_count": 258
         }
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "cny = Asia_cny.groupby('InvoiceNo')['StockCode'].apply(list) #ทำการ group และทำให้ข้อมูลใน Description เป็นlist"
+        "trans3 = Asia_cny.groupby('InvoiceNo')['StockCode'].apply(list)"
       ],
       "metadata": {
         "id": "ALb4B4pt27Kx"
       },
-      "execution_count": 70,
+      "execution_count": null,
       "outputs": []
     },
     {
       "cell_type": "code",
       "source": [
         "min_sup = 0.25\n",
-        "frequentItemsets = list(apriori(cny,min_support = min_sup))\n",
+        "frequentItemsets = list(apriori(trans3,min_support = min_sup))\n",
         "for i in frequentItemsets:\n",
         "    if i[0].__len__()>1:\n",
         "        print('yes')\n",
@@ -3014,27 +2980,27 @@
       ],
       "metadata": {
         "id": "NqaN-W552d2X",
-        "outputId": "585674d1-1f03-4538-c6c9-1534b7cb4b66",
+        "outputId": "4f19bdf9-70b1-449e-ca4b-d6440930ce36",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 71,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
             "yes\n",
-            "RelationRecord(items=frozenset({'22202', '20682'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22202', '20682'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'20682', '22202'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'20682', '22202'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22203', '20682'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22203', '20682'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'20682', '22551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'20682', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'20725', '21216'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'20725', '21216'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20725'}), items_add=frozenset({'21216'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21216'}), items_add=frozenset({'20725'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'21216', '20725'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21216', '20725'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20725'}), items_add=frozenset({'21216'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21216'}), items_add=frozenset({'20725'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'20725', '21439'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'20725', '21439'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20725'}), items_add=frozenset({'21439'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21439'}), items_add=frozenset({'20725'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'21439', '20725'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21439', '20725'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20725'}), items_add=frozenset({'21439'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21439'}), items_add=frozenset({'20725'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'21165', '82551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21165', '82551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21165'}), items_add=frozenset({'82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82551'}), items_add=frozenset({'21165'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
@@ -3042,27 +3008,27 @@
             "yes\n",
             "RelationRecord(items=frozenset({'85150', '21165'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '21165'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21165'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'21165'}), confidence=0.6666666666666666, lift=2.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'21216', '21439'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21216', '21439'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21216'}), items_add=frozenset({'21439'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21439'}), items_add=frozenset({'21216'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'21439', '21216'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21439', '21216'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21216'}), items_add=frozenset({'21439'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21439'}), items_add=frozenset({'21216'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22957', '21756'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22957', '21756'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'21756'}), confidence=0.6666666666666666, lift=2.0)])\n",
+            "RelationRecord(items=frozenset({'21756', '22957'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21756', '22957'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'21756'}), confidence=0.6666666666666666, lift=2.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22960', '21756'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22960', '21756'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22960', '21756'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21756', '22960'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'85150', '21756'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '21756'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'21756'}), confidence=0.6666666666666666, lift=2.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22203', '22202'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22203', '22202'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22202', '22551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22202', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22551', '22202'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22202', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22203', '22551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22203', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'48138', '22413'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'48138', '22413'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22413'}), items_add=frozenset({'48138'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'48138'}), items_add=frozenset({'22413'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22413', '48138'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22413', '48138'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22413'}), items_add=frozenset({'48138'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'48138'}), items_add=frozenset({'22413'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'85150', '22413'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '22413'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22413'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'22413'}), confidence=0.6666666666666666, lift=2.0)])\n",
+            "RelationRecord(items=frozenset({'22413', '85150'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22413', '85150'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22413'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'22413'}), confidence=0.6666666666666666, lift=2.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22960', '22957'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22960', '22957'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'22960'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'47566', '22957'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'47566', '22957'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'47566'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'47566'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0)])\n",
+            "RelationRecord(items=frozenset({'22957', '47566'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22957', '47566'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'47566'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'47566'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'84988', '22957'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'84988', '22957'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'84988'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'84988'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0)])\n",
             "yes\n",
@@ -3070,7 +3036,7 @@
             "yes\n",
             "RelationRecord(items=frozenset({'85150', '22960'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '22960'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'22960'}), confidence=0.6666666666666666, lift=2.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'85150', '48138'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '48138'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'48138'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'48138'}), confidence=0.6666666666666666, lift=2.0)])\n",
+            "RelationRecord(items=frozenset({'48138', '85150'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'48138', '85150'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'48138'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'48138'}), confidence=0.6666666666666666, lift=2.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'82552', '82551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'82552', '82551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'82551'}), items_add=frozenset({'82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552'}), items_add=frozenset({'82551'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
@@ -3078,39 +3044,39 @@
             "yes\n",
             "RelationRecord(items=frozenset({'85150', '82552'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '82552'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'82552'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'82552'}), confidence=0.6666666666666666, lift=2.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22203', '22202', '20682'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22203', '22202', '20682'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22203', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'22203', '20682'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'22202', '20682'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202', '20682'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '20682'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22202'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22203', '20682', '22202'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22203', '20682', '22202'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22203', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'22203', '20682'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'20682', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20682', '22202'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '20682'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22202'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22202', '20682', '22551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22202', '20682', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22202', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'20682', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'22202', '20682'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202', '20682'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20682', '22551'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202', '22551'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22551', '20682', '22202'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22202', '20682', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22202', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'20682', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'20682', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20682', '22202'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20682', '22551'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551', '22202'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22203', '20682', '22551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22203', '20682', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22203', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'20682', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'22203', '20682'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '20682'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20682', '22551'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22551'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'20725', '21216', '21439'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'20725', '21216', '21439'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20725'}), items_add=frozenset({'21216', '21439'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21216'}), items_add=frozenset({'20725', '21439'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21439'}), items_add=frozenset({'20725', '21216'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20725', '21216'}), items_add=frozenset({'21439'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20725', '21439'}), items_add=frozenset({'21216'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21216', '21439'}), items_add=frozenset({'20725'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'21439', '21216', '20725'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21439', '21216', '20725'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20725'}), items_add=frozenset({'21439', '21216'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21216'}), items_add=frozenset({'21439', '20725'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21439'}), items_add=frozenset({'21216', '20725'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21216', '20725'}), items_add=frozenset({'21439'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21439', '20725'}), items_add=frozenset({'21216'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21439', '21216'}), items_add=frozenset({'20725'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'21165', '82552', '82551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21165', '82552', '82551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21165'}), items_add=frozenset({'82552', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82551'}), items_add=frozenset({'21165', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552'}), items_add=frozenset({'21165', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21165', '82551'}), items_add=frozenset({'82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21165', '82552'}), items_add=frozenset({'82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552', '82551'}), items_add=frozenset({'21165'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'82552', '21165', '82551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21165', '82552', '82551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21165'}), items_add=frozenset({'82552', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82551'}), items_add=frozenset({'21165', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552'}), items_add=frozenset({'21165', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21165', '82551'}), items_add=frozenset({'82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21165', '82552'}), items_add=frozenset({'82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552', '82551'}), items_add=frozenset({'21165'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'85150', '21165', '82551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '21165', '82551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21165'}), items_add=frozenset({'85150', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82551'}), items_add=frozenset({'85150', '21165'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'21165', '82551'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'21165', '82551'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '21165'}), items_add=frozenset({'82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '82551'}), items_add=frozenset({'21165'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'85150', '21165', '82552'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '21165', '82552'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21165'}), items_add=frozenset({'85150', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552'}), items_add=frozenset({'85150', '21165'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'21165', '82552'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'21165', '82552'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '21165'}), items_add=frozenset({'82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '82552'}), items_add=frozenset({'21165'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22957', '22960', '21756'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22960', '22957', '21756'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'22960', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'22960', '21756'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'22957', '21756'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22957', '21756'}), items_add=frozenset({'22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960', '21756'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'22960', '22957'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22960', '21756', '22957'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21756', '22960', '22957'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'22960', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'21756', '22960'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'21756', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21756', '22957'}), items_add=frozenset({'22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960', '21756'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'22960', '22957'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22957', '85150', '21756'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '22957', '21756'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'85150', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'85150', '21756'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'22957', '21756'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22957', '21756'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '21756'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '22957'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'85150', '21756', '22957'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '21756', '22957'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'85150', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'85150', '21756'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'21756', '22957'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'21756', '22957'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '21756'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '22957'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'85150', '22960', '21756'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '22960', '21756'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'85150', '22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'85150', '21756'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'22960', '21756'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22960', '21756'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '21756'}), items_add=frozenset({'22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '22960'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22960', '85150', '21756'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '21756', '22960'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'85150', '22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'85150', '21756'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'21756', '22960'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22960', '21756'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '21756'}), items_add=frozenset({'22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '22960'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22203', '22202', '22551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22203', '22202', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'22203', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'22202', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'22203', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22202'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202', '22551'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22551'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22551', '22203', '22202'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22202', '22203', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'22203', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'22202', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'22203', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22202'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551', '22202'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22551'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'85150', '48138', '22413'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '48138', '22413'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22413'}), items_add=frozenset({'85150', '48138'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'48138'}), items_add=frozenset({'85150', '22413'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'48138', '22413'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'48138', '22413'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '22413'}), items_add=frozenset({'48138'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '48138'}), items_add=frozenset({'22413'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22413', '85150', '48138'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22413', '85150', '48138'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22413'}), items_add=frozenset({'48138', '85150'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'48138'}), items_add=frozenset({'22413', '85150'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'22413', '48138'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22413', '48138'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'22413', '85150'}), items_add=frozenset({'48138'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'48138', '85150'}), items_add=frozenset({'22413'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'85150', '22960', '22957'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '22960', '22957'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'85150', '22960'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'85150', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'22960', '22957'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22960', '22957'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '22957'}), items_add=frozenset({'22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '22960'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'85150', '82552', '82551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '82552', '82551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'82551'}), items_add=frozenset({'85150', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552'}), items_add=frozenset({'85150', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'82552', '82551'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'82552', '82551'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '82551'}), items_add=frozenset({'82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '82552'}), items_add=frozenset({'82551'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22203', '22202', '20682', '22551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22203', '22202', '20682', '22551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22203', '22202', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'22203', '20682', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'22202', '20682', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'22203', '22202', '20682'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202', '20682'}), items_add=frozenset({'22203', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '20682'}), items_add=frozenset({'22202', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20682', '22551'}), items_add=frozenset({'22203', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22202'}), items_add=frozenset({'20682', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202', '22551'}), items_add=frozenset({'22203', '20682'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22551'}), items_add=frozenset({'22202', '20682'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22202', '20682'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202', '20682', '22551'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '20682', '22551'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22202', '22551'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'22551', '22203', '20682', '22202'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22551', '22203', '20682', '22202'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'20682'}), items_add=frozenset({'22202', '22203', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22202'}), items_add=frozenset({'22203', '20682', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203'}), items_add=frozenset({'22202', '20682', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551'}), items_add=frozenset({'22203', '20682', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20682', '22202'}), items_add=frozenset({'22203', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '20682'}), items_add=frozenset({'22202', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'20682', '22551'}), items_add=frozenset({'22203', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22202'}), items_add=frozenset({'20682', '22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551', '22202'}), items_add=frozenset({'22203', '20682'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '22551'}), items_add=frozenset({'20682', '22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '20682', '22202'}), items_add=frozenset({'22551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551', '20682', '22202'}), items_add=frozenset({'22203'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22203', '20682', '22551'}), items_add=frozenset({'22202'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22551', '22203', '22202'}), items_add=frozenset({'20682'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'85150', '21165', '82552', '82551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85150', '21165', '82552', '82551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21165'}), items_add=frozenset({'85150', '82552', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82551'}), items_add=frozenset({'85150', '21165', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552'}), items_add=frozenset({'85150', '21165', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'21165', '82552', '82551'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'21165', '82551'}), items_add=frozenset({'85150', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21165', '82552'}), items_add=frozenset({'85150', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '21165'}), items_add=frozenset({'82552', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552', '82551'}), items_add=frozenset({'85150', '21165'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '82551'}), items_add=frozenset({'21165', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '82552'}), items_add=frozenset({'21165', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21165', '82552', '82551'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '21165', '82551'}), items_add=frozenset({'82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '21165', '82552'}), items_add=frozenset({'82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '82552', '82551'}), items_add=frozenset({'21165'}), confidence=1.0, lift=3.0)])\n",
+            "RelationRecord(items=frozenset({'82552', '85150', '21165', '82551'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'82552', '85150', '21165', '82551'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21165'}), items_add=frozenset({'85150', '82552', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82551'}), items_add=frozenset({'21165', '85150', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552'}), items_add=frozenset({'85150', '21165', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'21165', '82552', '82551'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'21165', '82551'}), items_add=frozenset({'85150', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'21165', '82552'}), items_add=frozenset({'85150', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '21165'}), items_add=frozenset({'82552', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552', '82551'}), items_add=frozenset({'85150', '21165'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '82551'}), items_add=frozenset({'21165', '82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '82552'}), items_add=frozenset({'21165', '82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'82552', '21165', '82551'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '21165', '82551'}), items_add=frozenset({'82552'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '21165', '82552'}), items_add=frozenset({'82551'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '82552', '82551'}), items_add=frozenset({'21165'}), confidence=1.0, lift=3.0)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22957', '85150', '22960', '21756'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22957', '85150', '22960', '21756'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'85150', '22960', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'85150', '22960', '21756'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'85150', '22957', '21756'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'22960', '22957', '21756'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22957', '21756'}), items_add=frozenset({'85150', '22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960', '21756'}), items_add=frozenset({'85150', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '21756'}), items_add=frozenset({'22960', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960', '22957'}), items_add=frozenset({'85150', '21756'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '22957'}), items_add=frozenset({'22960', '21756'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '22960'}), items_add=frozenset({'22957', '21756'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22957', '22960', '21756'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'22957', '85150', '21756'}), items_add=frozenset({'22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '22960', '21756'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '22960', '22957'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n"
+            "RelationRecord(items=frozenset({'22960', '85150', '21756', '22957'}), support=0.3333333333333333, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22960', '85150', '21756', '22957'}), confidence=0.3333333333333333, lift=1.0), OrderedStatistic(items_base=frozenset({'21756'}), items_add=frozenset({'85150', '22960', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22957'}), items_add=frozenset({'85150', '21756', '22960'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'22960'}), items_add=frozenset({'85150', '21756', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150'}), items_add=frozenset({'21756', '22960', '22957'}), confidence=0.6666666666666666, lift=2.0), OrderedStatistic(items_base=frozenset({'21756', '22957'}), items_add=frozenset({'85150', '22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960', '21756'}), items_add=frozenset({'85150', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '21756'}), items_add=frozenset({'22960', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960', '22957'}), items_add=frozenset({'85150', '21756'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '22957'}), items_add=frozenset({'21756', '22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'85150', '22960'}), items_add=frozenset({'21756', '22957'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960', '21756', '22957'}), items_add=frozenset({'85150'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '21756', '22957'}), items_add=frozenset({'22960'}), confidence=1.0, lift=3.0), OrderedStatistic(items_base=frozenset({'22960', '85150', '21756'}), items_add=frozenset({'22957'}), confidence=1.0, lift=2.0), OrderedStatistic(items_base=frozenset({'85150', '22960', '22957'}), items_add=frozenset({'21756'}), confidence=1.0, lift=3.0)])\n"
           ]
         }
       ]
@@ -3118,152 +3084,139 @@
     {
       "cell_type": "code",
       "source": [
-        "import pandas as pd\n",
-        "from apyori import apriori\n",
+        "frequent_itemsets = list(apriori(trans3, min_support = min_sup))\n",
         "\n",
-        "# Replace 'transactions' with your actual list of transaction sets.\n",
-        "frequent_itemsets = list(apriori(cny, min_support=min_sup))\n",
-        "\n",
-        "# Prepare a list to collect the results.\n",
         "results = []\n",
         "\n",
-        "# Process each frequent itemset generated by the apriori algorithm.\n",
         "for itemset in frequent_itemsets:\n",
-        "    # Check if the itemset has more than one item.\n",
         "    if len(itemset.items) > 1:\n",
-        "        # Store the basic itemset information.\n",
         "        item_info = {\n",
         "            \"yes\": 'yes',\n",
         "            \"Items\": ', '.join(itemset.items),\n",
         "            \"Support\": f\"{itemset.support:.4f} ({itemset.support*100:.2f}%)\"\n",
         "        }\n",
-        "        rules_info = []\n",
         "\n",
-        "        # Now process the rules associated with the itemset.\n",
+        "        rules_info = []\n",
         "        for rule_number, ordered_stat in enumerate(itemset.ordered_statistics, start=1):\n",
         "            base_items = ', '.join(ordered_stat.items_base) if ordered_stat.items_base else 'None'\n",
         "            add_items = ', '.join(ordered_stat.items_add)\n",
-        "            # Store the rule information.\n",
+        "\n",
         "            rules_info.append(f\"Rule {rule_number}: ({base_items} -> {add_items} : Confidence={ordered_stat.confidence:.4f}, Lift={ordered_stat.lift:.4f})\")\n",
         "\n",
-        "        # Add the itemset information and all its rules to the results.\n",
         "        item_info.update({\"Rules\": '\\n'.join(rules_info)})\n",
         "        results.append(item_info)\n",
         "\n",
-        "# Convert the results list to a DataFrame for display.\n",
         "results_df = pd.DataFrame(results)\n",
         "\n",
-        "# If you want to display the DataFrame in Google Colab:\n",
-        "results_df\n",
-        "\n"
+        "results_df"
       ],
       "metadata": {
         "id": "RZp2s8274XII",
-        "outputId": "590d52f9-850e-408f-c8a1-ed57b79d0f7b",
+        "outputId": "19b540cb-c878-4585-93c5-0823e1ffc6f2",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1091
+          "height": 1000
         }
       },
-      "execution_count": 72,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
               "    yes                       Items          Support  \\\n",
-              "0   yes                22202, 20682  0.3333 (33.33%)   \n",
+              "0   yes                20682, 22202  0.3333 (33.33%)   \n",
               "1   yes                22203, 20682  0.3333 (33.33%)   \n",
               "2   yes                20682, 22551  0.3333 (33.33%)   \n",
-              "3   yes                20725, 21216  0.3333 (33.33%)   \n",
-              "4   yes                20725, 21439  0.3333 (33.33%)   \n",
+              "3   yes                21216, 20725  0.3333 (33.33%)   \n",
+              "4   yes                21439, 20725  0.3333 (33.33%)   \n",
               "5   yes                21165, 82551  0.3333 (33.33%)   \n",
               "6   yes                21165, 82552  0.3333 (33.33%)   \n",
               "7   yes                85150, 21165  0.3333 (33.33%)   \n",
-              "8   yes                21216, 21439  0.3333 (33.33%)   \n",
-              "9   yes                22957, 21756  0.3333 (33.33%)   \n",
+              "8   yes                21439, 21216  0.3333 (33.33%)   \n",
+              "9   yes                21756, 22957  0.3333 (33.33%)   \n",
               "10  yes                22960, 21756  0.3333 (33.33%)   \n",
               "11  yes                85150, 21756  0.3333 (33.33%)   \n",
               "12  yes                22203, 22202  0.3333 (33.33%)   \n",
-              "13  yes                22202, 22551  0.3333 (33.33%)   \n",
+              "13  yes                22551, 22202  0.3333 (33.33%)   \n",
               "14  yes                22203, 22551  0.3333 (33.33%)   \n",
-              "15  yes                48138, 22413  0.3333 (33.33%)   \n",
-              "16  yes                85150, 22413  0.3333 (33.33%)   \n",
+              "15  yes                22413, 48138  0.3333 (33.33%)   \n",
+              "16  yes                22413, 85150  0.3333 (33.33%)   \n",
               "17  yes                22960, 22957  0.3333 (33.33%)   \n",
-              "18  yes                47566, 22957  0.3333 (33.33%)   \n",
+              "18  yes                22957, 47566  0.3333 (33.33%)   \n",
               "19  yes                84988, 22957  0.3333 (33.33%)   \n",
               "20  yes                85150, 22957  0.3333 (33.33%)   \n",
               "21  yes                85150, 22960  0.3333 (33.33%)   \n",
-              "22  yes                85150, 48138  0.3333 (33.33%)   \n",
+              "22  yes                48138, 85150  0.3333 (33.33%)   \n",
               "23  yes                82552, 82551  0.3333 (33.33%)   \n",
               "24  yes                85150, 82551  0.3333 (33.33%)   \n",
               "25  yes                85150, 82552  0.3333 (33.33%)   \n",
-              "26  yes         22203, 22202, 20682  0.3333 (33.33%)   \n",
-              "27  yes         22202, 20682, 22551  0.3333 (33.33%)   \n",
+              "26  yes         22203, 20682, 22202  0.3333 (33.33%)   \n",
+              "27  yes         22551, 20682, 22202  0.3333 (33.33%)   \n",
               "28  yes         22203, 20682, 22551  0.3333 (33.33%)   \n",
-              "29  yes         20725, 21216, 21439  0.3333 (33.33%)   \n",
-              "30  yes         21165, 82552, 82551  0.3333 (33.33%)   \n",
+              "29  yes         21439, 21216, 20725  0.3333 (33.33%)   \n",
+              "30  yes         82552, 21165, 82551  0.3333 (33.33%)   \n",
               "31  yes         85150, 21165, 82551  0.3333 (33.33%)   \n",
               "32  yes         85150, 21165, 82552  0.3333 (33.33%)   \n",
-              "33  yes         22957, 22960, 21756  0.3333 (33.33%)   \n",
-              "34  yes         22957, 85150, 21756  0.3333 (33.33%)   \n",
-              "35  yes         85150, 22960, 21756  0.3333 (33.33%)   \n",
-              "36  yes         22203, 22202, 22551  0.3333 (33.33%)   \n",
-              "37  yes         85150, 48138, 22413  0.3333 (33.33%)   \n",
+              "33  yes         22960, 21756, 22957  0.3333 (33.33%)   \n",
+              "34  yes         85150, 21756, 22957  0.3333 (33.33%)   \n",
+              "35  yes         22960, 85150, 21756  0.3333 (33.33%)   \n",
+              "36  yes         22551, 22203, 22202  0.3333 (33.33%)   \n",
+              "37  yes         22413, 85150, 48138  0.3333 (33.33%)   \n",
               "38  yes         85150, 22960, 22957  0.3333 (33.33%)   \n",
               "39  yes         85150, 82552, 82551  0.3333 (33.33%)   \n",
-              "40  yes  22203, 22202, 20682, 22551  0.3333 (33.33%)   \n",
-              "41  yes  85150, 21165, 82552, 82551  0.3333 (33.33%)   \n",
-              "42  yes  22957, 85150, 22960, 21756  0.3333 (33.33%)   \n",
+              "40  yes  22551, 22203, 20682, 22202  0.3333 (33.33%)   \n",
+              "41  yes  82552, 85150, 21165, 82551  0.3333 (33.33%)   \n",
+              "42  yes  22960, 85150, 21756, 22957  0.3333 (33.33%)   \n",
               "\n",
               "                                                Rules  \n",
-              "0   Rule 1: (None -> 22202, 20682 : Confidence=0.3...  \n",
+              "0   Rule 1: (None -> 20682, 22202 : Confidence=0.3...  \n",
               "1   Rule 1: (None -> 22203, 20682 : Confidence=0.3...  \n",
               "2   Rule 1: (None -> 20682, 22551 : Confidence=0.3...  \n",
-              "3   Rule 1: (None -> 20725, 21216 : Confidence=0.3...  \n",
-              "4   Rule 1: (None -> 20725, 21439 : Confidence=0.3...  \n",
+              "3   Rule 1: (None -> 21216, 20725 : Confidence=0.3...  \n",
+              "4   Rule 1: (None -> 21439, 20725 : Confidence=0.3...  \n",
               "5   Rule 1: (None -> 21165, 82551 : Confidence=0.3...  \n",
               "6   Rule 1: (None -> 21165, 82552 : Confidence=0.3...  \n",
               "7   Rule 1: (None -> 85150, 21165 : Confidence=0.3...  \n",
-              "8   Rule 1: (None -> 21216, 21439 : Confidence=0.3...  \n",
-              "9   Rule 1: (None -> 22957, 21756 : Confidence=0.3...  \n",
-              "10  Rule 1: (None -> 22960, 21756 : Confidence=0.3...  \n",
+              "8   Rule 1: (None -> 21439, 21216 : Confidence=0.3...  \n",
+              "9   Rule 1: (None -> 21756, 22957 : Confidence=0.3...  \n",
+              "10  Rule 1: (None -> 21756, 22960 : Confidence=0.3...  \n",
               "11  Rule 1: (None -> 85150, 21756 : Confidence=0.3...  \n",
               "12  Rule 1: (None -> 22203, 22202 : Confidence=0.3...  \n",
               "13  Rule 1: (None -> 22202, 22551 : Confidence=0.3...  \n",
               "14  Rule 1: (None -> 22203, 22551 : Confidence=0.3...  \n",
-              "15  Rule 1: (None -> 48138, 22413 : Confidence=0.3...  \n",
-              "16  Rule 1: (None -> 85150, 22413 : Confidence=0.3...  \n",
+              "15  Rule 1: (None -> 22413, 48138 : Confidence=0.3...  \n",
+              "16  Rule 1: (None -> 22413, 85150 : Confidence=0.3...  \n",
               "17  Rule 1: (None -> 22960, 22957 : Confidence=0.3...  \n",
-              "18  Rule 1: (None -> 47566, 22957 : Confidence=0.3...  \n",
+              "18  Rule 1: (None -> 22957, 47566 : Confidence=0.3...  \n",
               "19  Rule 1: (None -> 84988, 22957 : Confidence=0.3...  \n",
               "20  Rule 1: (None -> 85150, 22957 : Confidence=0.3...  \n",
               "21  Rule 1: (None -> 85150, 22960 : Confidence=0.3...  \n",
-              "22  Rule 1: (None -> 85150, 48138 : Confidence=0.3...  \n",
+              "22  Rule 1: (None -> 48138, 85150 : Confidence=0.3...  \n",
               "23  Rule 1: (None -> 82552, 82551 : Confidence=0.3...  \n",
               "24  Rule 1: (None -> 85150, 82551 : Confidence=0.3...  \n",
               "25  Rule 1: (None -> 85150, 82552 : Confidence=0.3...  \n",
-              "26  Rule 1: (None -> 22203, 22202, 20682 : Confide...  \n",
+              "26  Rule 1: (None -> 22203, 20682, 22202 : Confide...  \n",
               "27  Rule 1: (None -> 22202, 20682, 22551 : Confide...  \n",
               "28  Rule 1: (None -> 22203, 20682, 22551 : Confide...  \n",
-              "29  Rule 1: (None -> 20725, 21216, 21439 : Confide...  \n",
+              "29  Rule 1: (None -> 21439, 21216, 20725 : Confide...  \n",
               "30  Rule 1: (None -> 21165, 82552, 82551 : Confide...  \n",
               "31  Rule 1: (None -> 85150, 21165, 82551 : Confide...  \n",
               "32  Rule 1: (None -> 85150, 21165, 82552 : Confide...  \n",
-              "33  Rule 1: (None -> 22960, 22957, 21756 : Confide...  \n",
-              "34  Rule 1: (None -> 85150, 22957, 21756 : Confide...  \n",
-              "35  Rule 1: (None -> 85150, 22960, 21756 : Confide...  \n",
-              "36  Rule 1: (None -> 22203, 22202, 22551 : Confide...  \n",
-              "37  Rule 1: (None -> 85150, 48138, 22413 : Confide...  \n",
+              "33  Rule 1: (None -> 21756, 22960, 22957 : Confide...  \n",
+              "34  Rule 1: (None -> 85150, 21756, 22957 : Confide...  \n",
+              "35  Rule 1: (None -> 85150, 21756, 22960 : Confide...  \n",
+              "36  Rule 1: (None -> 22202, 22203, 22551 : Confide...  \n",
+              "37  Rule 1: (None -> 22413, 85150, 48138 : Confide...  \n",
               "38  Rule 1: (None -> 85150, 22960, 22957 : Confide...  \n",
               "39  Rule 1: (None -> 85150, 82552, 82551 : Confide...  \n",
-              "40  Rule 1: (None -> 22203, 22202, 20682, 22551 : ...  \n",
-              "41  Rule 1: (None -> 85150, 21165, 82552, 82551 : ...  \n",
-              "42  Rule 1: (None -> 22957, 85150, 22960, 21756 : ...  "
+              "40  Rule 1: (None -> 22551, 22203, 20682, 22202 : ...  \n",
+              "41  Rule 1: (None -> 82552, 85150, 21165, 82551 : ...  \n",
+              "42  Rule 1: (None -> 22960, 85150, 21756, 22957 : ...  "
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-03c7903a-f58c-475c-96fb-e48ac4c4be2e\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-fa9b6db5-1563-44ec-b09a-5a358eb3da31\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -3292,9 +3245,9 @@
               "    <tr>\n",
               "      <th>0</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22202, 20682</td>\n",
+              "      <td>20682, 22202</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22202, 20682 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 20682, 22202 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>1</th>\n",
@@ -3313,16 +3266,16 @@
               "    <tr>\n",
               "      <th>3</th>\n",
               "      <td>yes</td>\n",
-              "      <td>20725, 21216</td>\n",
+              "      <td>21216, 20725</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 20725, 21216 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21216, 20725 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>4</th>\n",
               "      <td>yes</td>\n",
-              "      <td>20725, 21439</td>\n",
+              "      <td>21439, 20725</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 20725, 21439 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21439, 20725 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>5</th>\n",
@@ -3348,23 +3301,23 @@
               "    <tr>\n",
               "      <th>8</th>\n",
               "      <td>yes</td>\n",
-              "      <td>21216, 21439</td>\n",
+              "      <td>21439, 21216</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 21216, 21439 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21439, 21216 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>9</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22957, 21756</td>\n",
+              "      <td>21756, 22957</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22957, 21756 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21756, 22957 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>10</th>\n",
               "      <td>yes</td>\n",
               "      <td>22960, 21756</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22960, 21756 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21756, 22960 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>11</th>\n",
@@ -3383,7 +3336,7 @@
               "    <tr>\n",
               "      <th>13</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22202, 22551</td>\n",
+              "      <td>22551, 22202</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
               "      <td>Rule 1: (None -&gt; 22202, 22551 : Confidence=0.3...</td>\n",
               "    </tr>\n",
@@ -3397,16 +3350,16 @@
               "    <tr>\n",
               "      <th>15</th>\n",
               "      <td>yes</td>\n",
-              "      <td>48138, 22413</td>\n",
+              "      <td>22413, 48138</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 48138, 22413 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22413, 48138 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>16</th>\n",
               "      <td>yes</td>\n",
-              "      <td>85150, 22413</td>\n",
+              "      <td>22413, 85150</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 85150, 22413 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22413, 85150 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>17</th>\n",
@@ -3418,9 +3371,9 @@
               "    <tr>\n",
               "      <th>18</th>\n",
               "      <td>yes</td>\n",
-              "      <td>47566, 22957</td>\n",
+              "      <td>22957, 47566</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 47566, 22957 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22957, 47566 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>19</th>\n",
@@ -3446,9 +3399,9 @@
               "    <tr>\n",
               "      <th>22</th>\n",
               "      <td>yes</td>\n",
-              "      <td>85150, 48138</td>\n",
+              "      <td>48138, 85150</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 85150, 48138 : Confidence=0.3...</td>\n",
+              "      <td>Rule 1: (None -&gt; 48138, 85150 : Confidence=0.3...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>23</th>\n",
@@ -3474,14 +3427,14 @@
               "    <tr>\n",
               "      <th>26</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22203, 22202, 20682</td>\n",
+              "      <td>22203, 20682, 22202</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22203, 22202, 20682 : Confide...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22203, 20682, 22202 : Confide...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>27</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22202, 20682, 22551</td>\n",
+              "      <td>22551, 20682, 22202</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
               "      <td>Rule 1: (None -&gt; 22202, 20682, 22551 : Confide...</td>\n",
               "    </tr>\n",
@@ -3495,14 +3448,14 @@
               "    <tr>\n",
               "      <th>29</th>\n",
               "      <td>yes</td>\n",
-              "      <td>20725, 21216, 21439</td>\n",
+              "      <td>21439, 21216, 20725</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 20725, 21216, 21439 : Confide...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21439, 21216, 20725 : Confide...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>30</th>\n",
               "      <td>yes</td>\n",
-              "      <td>21165, 82552, 82551</td>\n",
+              "      <td>82552, 21165, 82551</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
               "      <td>Rule 1: (None -&gt; 21165, 82552, 82551 : Confide...</td>\n",
               "    </tr>\n",
@@ -3523,37 +3476,37 @@
               "    <tr>\n",
               "      <th>33</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22957, 22960, 21756</td>\n",
+              "      <td>22960, 21756, 22957</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22960, 22957, 21756 : Confide...</td>\n",
+              "      <td>Rule 1: (None -&gt; 21756, 22960, 22957 : Confide...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>34</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22957, 85150, 21756</td>\n",
+              "      <td>85150, 21756, 22957</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 85150, 22957, 21756 : Confide...</td>\n",
+              "      <td>Rule 1: (None -&gt; 85150, 21756, 22957 : Confide...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>35</th>\n",
               "      <td>yes</td>\n",
-              "      <td>85150, 22960, 21756</td>\n",
+              "      <td>22960, 85150, 21756</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 85150, 22960, 21756 : Confide...</td>\n",
+              "      <td>Rule 1: (None -&gt; 85150, 21756, 22960 : Confide...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>36</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22203, 22202, 22551</td>\n",
+              "      <td>22551, 22203, 22202</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22203, 22202, 22551 : Confide...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22202, 22203, 22551 : Confide...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>37</th>\n",
               "      <td>yes</td>\n",
-              "      <td>85150, 48138, 22413</td>\n",
+              "      <td>22413, 85150, 48138</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 85150, 48138, 22413 : Confide...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22413, 85150, 48138 : Confide...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>38</th>\n",
@@ -3572,23 +3525,23 @@
               "    <tr>\n",
               "      <th>40</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22203, 22202, 20682, 22551</td>\n",
+              "      <td>22551, 22203, 20682, 22202</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22203, 22202, 20682, 22551 : ...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22551, 22203, 20682, 22202 : ...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>41</th>\n",
               "      <td>yes</td>\n",
-              "      <td>85150, 21165, 82552, 82551</td>\n",
+              "      <td>82552, 85150, 21165, 82551</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 85150, 21165, 82552, 82551 : ...</td>\n",
+              "      <td>Rule 1: (None -&gt; 82552, 85150, 21165, 82551 : ...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>42</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22957, 85150, 22960, 21756</td>\n",
+              "      <td>22960, 85150, 21756, 22957</td>\n",
               "      <td>0.3333 (33.33%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22957, 85150, 22960, 21756 : ...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22960, 85150, 21756, 22957 : ...</td>\n",
               "    </tr>\n",
               "  </tbody>\n",
               "</table>\n",
@@ -3596,7 +3549,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-03c7903a-f58c-475c-96fb-e48ac4c4be2e')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-fa9b6db5-1563-44ec-b09a-5a358eb3da31')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -3648,12 +3601,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-03c7903a-f58c-475c-96fb-e48ac4c4be2e button.colab-df-convert');\n",
+              "        document.querySelector('#df-fa9b6db5-1563-44ec-b09a-5a358eb3da31 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-03c7903a-f58c-475c-96fb-e48ac4c4be2e');\n",
+              "        const element = document.querySelector('#df-fa9b6db5-1563-44ec-b09a-5a358eb3da31');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -3673,8 +3626,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-f7d2e84c-17ee-4cd2-9f76-bd439b7e699f\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-f7d2e84c-17ee-4cd2-9f76-bd439b7e699f')\"\n",
+              "<div id=\"df-62e44f78-e86e-4a54-ba0d-9b89c64bd2c5\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-62e44f78-e86e-4a54-ba0d-9b89c64bd2c5')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -3793,7 +3746,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-f7d2e84c-17ee-4cd2-9f76-bd439b7e699f button');\n",
+              "        document.querySelector('#df-62e44f78-e86e-4a54-ba0d-9b89c64bd2c5 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -3804,7 +3757,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 72
+          "execution_count": 261
         }
       ]
     },
@@ -3815,12 +3768,12 @@
       ],
       "metadata": {
         "id": "2dnH7Err4jWz",
-        "outputId": "3f8236de-f170-42e8-bf51-1a6e98c267a8",
+        "outputId": "958d9c7c-57c6-415d-cf9a-731f3cbdf889",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 73,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -3830,7 +3783,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 73
+          "execution_count": 262
         }
       ]
     },
@@ -3851,13 +3804,13 @@
       ],
       "metadata": {
         "id": "rkblQd584tCj",
-        "outputId": "569caefc-38a3-41e3-a009-bb056b1b1b4c",
+        "outputId": "1a4fe9ce-5b15-41f5-f499-0a74bf7ca697",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 597
+          "height": 423
         }
       },
-      "execution_count": 74,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -3893,7 +3846,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-b3f397db-84c0-4222-a99e-855b21b4fc22\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-311eee50-95ac-4fcc-aaa7-646e977696d5\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -4051,7 +4004,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-b3f397db-84c0-4222-a99e-855b21b4fc22')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-311eee50-95ac-4fcc-aaa7-646e977696d5')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -4103,12 +4056,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-b3f397db-84c0-4222-a99e-855b21b4fc22 button.colab-df-convert');\n",
+              "        document.querySelector('#df-311eee50-95ac-4fcc-aaa7-646e977696d5 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-b3f397db-84c0-4222-a99e-855b21b4fc22');\n",
+              "        const element = document.querySelector('#df-311eee50-95ac-4fcc-aaa7-646e977696d5');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -4128,8 +4081,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-bf18fa0d-8dee-44ae-99ea-96ae5ea4c316\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-bf18fa0d-8dee-44ae-99ea-96ae5ea4c316')\"\n",
+              "<div id=\"df-969a2af2-680d-462c-bec4-3900210a2933\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-969a2af2-680d-462c-bec4-3900210a2933')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -4248,7 +4201,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-bf18fa0d-8dee-44ae-99ea-96ae5ea4c316 button');\n",
+              "        document.querySelector('#df-969a2af2-680d-462c-bec4-3900210a2933 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -4259,26 +4212,26 @@
             ]
           },
           "metadata": {},
-          "execution_count": 74
+          "execution_count": 263
         }
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "eu_ny = Europe_Newyear.groupby('InvoiceNo')['StockCode'].apply(list) #ทำการ group และทำให้ข้อมูลใน Description เป็นlist"
+        "trans4 = Europe_Newyear.groupby('InvoiceNo')['StockCode'].apply(list)"
       ],
       "metadata": {
         "id": "vAgLiboq5N1Q"
       },
-      "execution_count": 75,
+      "execution_count": null,
       "outputs": []
     },
     {
       "cell_type": "code",
       "source": [
         "min_sup = 0.03\n",
-        "frequentItemsets = list(apriori(eu_ny,min_support = min_sup))\n",
+        "frequentItemsets = list(apriori(trans4,min_support = min_sup))\n",
         "for i in frequentItemsets:\n",
         "    if i[0].__len__()>1:\n",
         "        print('yes')\n",
@@ -4286,29 +4239,29 @@
       ],
       "metadata": {
         "id": "E_2ySYfc49qR",
-        "outputId": "234c80e5-5dbb-4ed5-ffae-040a3ace6ed1",
+        "outputId": "4cfd352f-fd56-48a3-dc58-fcf9e5808fa5",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 76,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
             "yes\n",
-            "RelationRecord(items=frozenset({'22910', '22086'}), support=0.047697368421052634, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22910', '22086'}), confidence=0.047697368421052634, lift=1.0), OrderedStatistic(items_base=frozenset({'22086'}), items_add=frozenset({'22910'}), confidence=0.5160142348754448, lift=7.195794834960331), OrderedStatistic(items_base=frozenset({'22910'}), items_add=frozenset({'22086'}), confidence=0.6651376146788991, lift=7.195794834960332)])\n",
+            "RelationRecord(items=frozenset({'22086', '22910'}), support=0.047697368421052634, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22086', '22910'}), confidence=0.047697368421052634, lift=1.0), OrderedStatistic(items_base=frozenset({'22086'}), items_add=frozenset({'22910'}), confidence=0.5160142348754448, lift=7.195794834960331), OrderedStatistic(items_base=frozenset({'22910'}), items_add=frozenset({'22086'}), confidence=0.6651376146788991, lift=7.195794834960332)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22112', '22111'}), support=0.03289473684210526, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22112', '22111'}), confidence=0.03289473684210526, lift=1.0), OrderedStatistic(items_base=frozenset({'22111'}), items_add=frozenset({'22112'}), confidence=0.45662100456621, lift=6.456408622703621), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'22111'}), confidence=0.46511627906976744, lift=6.456408622703621)])\n",
+            "RelationRecord(items=frozenset({'22111', '22112'}), support=0.03289473684210526, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22111', '22112'}), confidence=0.03289473684210526, lift=1.0), OrderedStatistic(items_base=frozenset({'22111'}), items_add=frozenset({'22112'}), confidence=0.45662100456621, lift=6.456408622703621), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'22111'}), confidence=0.46511627906976744, lift=6.456408622703621)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22112', '22835'}), support=0.036513157894736845, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22112', '22835'}), confidence=0.036513157894736845, lift=1.0), OrderedStatistic(items_base=frozenset({'22112'}), items_add=frozenset({'22835'}), confidence=0.5162790697674419, lift=9.748374981944245), OrderedStatistic(items_base=frozenset({'22835'}), items_add=frozenset({'22112'}), confidence=0.68944099378882, lift=9.748374981944245)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'22727', '22726'}), support=0.03684210526315789, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22727', '22726'}), confidence=0.03684210526315789, lift=1.0), OrderedStatistic(items_base=frozenset({'22726'}), items_add=frozenset({'22727'}), confidence=0.7088607594936708, lift=14.462662475575565), OrderedStatistic(items_base=frozenset({'22727'}), items_add=frozenset({'22726'}), confidence=0.7516778523489932, lift=14.462662475575565)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22865', '22866'}), support=0.030263157894736843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22865', '22866'}), confidence=0.030263157894736843, lift=1.0), OrderedStatistic(items_base=frozenset({'22865'}), items_add=frozenset({'22866'}), confidence=0.5679012345679012, lift=12.69426289034132), OrderedStatistic(items_base=frozenset({'22866'}), items_add=frozenset({'22865'}), confidence=0.6764705882352942, lift=12.694262890341323)])\n",
+            "RelationRecord(items=frozenset({'22866', '22865'}), support=0.030263157894736843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22866', '22865'}), confidence=0.030263157894736843, lift=1.0), OrderedStatistic(items_base=frozenset({'22865'}), items_add=frozenset({'22866'}), confidence=0.5679012345679012, lift=12.69426289034132), OrderedStatistic(items_base=frozenset({'22866'}), items_add=frozenset({'22865'}), confidence=0.6764705882352942, lift=12.694262890341323)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22865', '22867'}), support=0.030263157894736843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22865', '22867'}), confidence=0.030263157894736843, lift=1.0), OrderedStatistic(items_base=frozenset({'22865'}), items_add=frozenset({'22867'}), confidence=0.5679012345679012, lift=9.809203142536475), OrderedStatistic(items_base=frozenset({'22867'}), items_add=frozenset({'22865'}), confidence=0.5227272727272727, lift=9.809203142536475)])\n"
+            "RelationRecord(items=frozenset({'22867', '22865'}), support=0.030263157894736843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22867', '22865'}), confidence=0.030263157894736843, lift=1.0), OrderedStatistic(items_base=frozenset({'22865'}), items_add=frozenset({'22867'}), confidence=0.5679012345679012, lift=9.809203142536475), OrderedStatistic(items_base=frozenset({'22867'}), items_add=frozenset({'22865'}), confidence=0.5227272727272727, lift=9.809203142536475)])\n"
           ]
         }
       ]
@@ -4316,78 +4269,65 @@
     {
       "cell_type": "code",
       "source": [
-        "import pandas as pd\n",
-        "from apyori import apriori\n",
+        "frequent_itemsets = list(apriori(trans4, min_support = min_sup))\n",
         "\n",
-        "# Replace 'transactions' with your actual list of transaction sets.\n",
-        "frequent_itemsets = list(apriori(eu_ny, min_support=min_sup))\n",
-        "\n",
-        "# Prepare a list to collect the results.\n",
         "results = []\n",
         "\n",
-        "# Process each frequent itemset generated by the apriori algorithm.\n",
         "for itemset in frequent_itemsets:\n",
-        "    # Check if the itemset has more than one item.\n",
         "    if len(itemset.items) > 1:\n",
-        "        # Store the basic itemset information.\n",
         "        item_info = {\n",
         "            \"yes\": 'yes',\n",
         "            \"Items\": ', '.join(itemset.items),\n",
         "            \"Support\": f\"{itemset.support:.4f} ({itemset.support*100:.2f}%)\"\n",
         "        }\n",
-        "        rules_info = []\n",
         "\n",
-        "        # Now process the rules associated with the itemset.\n",
+        "        rules_info = []\n",
         "        for rule_number, ordered_stat in enumerate(itemset.ordered_statistics, start=1):\n",
         "            base_items = ', '.join(ordered_stat.items_base) if ordered_stat.items_base else 'None'\n",
         "            add_items = ', '.join(ordered_stat.items_add)\n",
-        "            # Store the rule information.\n",
+        "\n",
         "            rules_info.append(f\"Rule {rule_number}: ({base_items} -> {add_items} : Confidence={ordered_stat.confidence:.4f}, Lift={ordered_stat.lift:.4f})\")\n",
         "\n",
-        "        # Add the itemset information and all its rules to the results.\n",
         "        item_info.update({\"Rules\": '\\n'.join(rules_info)})\n",
         "        results.append(item_info)\n",
         "\n",
-        "# Convert the results list to a DataFrame for display.\n",
         "results_df = pd.DataFrame(results)\n",
         "\n",
-        "# If you want to display the DataFrame in Google Colab:\n",
-        "results_df\n",
-        "\n"
+        "results_df"
       ],
       "metadata": {
         "id": "7aiOgiI45HeM",
-        "outputId": "25d68966-2c56-4988-f6ce-2cf8ec63f55a",
+        "outputId": "c10f57d1-0e74-4c9b-88c1-15c0071cad97",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 363
+          "height": 237
         }
       },
-      "execution_count": 77,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
               "   yes         Items         Support  \\\n",
-              "0  yes  22910, 22086  0.0477 (4.77%)   \n",
-              "1  yes  22112, 22111  0.0329 (3.29%)   \n",
+              "0  yes  22086, 22910  0.0477 (4.77%)   \n",
+              "1  yes  22111, 22112  0.0329 (3.29%)   \n",
               "2  yes  22112, 22835  0.0365 (3.65%)   \n",
               "3  yes  22727, 22726  0.0368 (3.68%)   \n",
-              "4  yes  22865, 22866  0.0303 (3.03%)   \n",
-              "5  yes  22865, 22867  0.0303 (3.03%)   \n",
+              "4  yes  22866, 22865  0.0303 (3.03%)   \n",
+              "5  yes  22867, 22865  0.0303 (3.03%)   \n",
               "\n",
               "                                               Rules  \n",
-              "0  Rule 1: (None -> 22910, 22086 : Confidence=0.0...  \n",
-              "1  Rule 1: (None -> 22112, 22111 : Confidence=0.0...  \n",
+              "0  Rule 1: (None -> 22086, 22910 : Confidence=0.0...  \n",
+              "1  Rule 1: (None -> 22111, 22112 : Confidence=0.0...  \n",
               "2  Rule 1: (None -> 22112, 22835 : Confidence=0.0...  \n",
               "3  Rule 1: (None -> 22727, 22726 : Confidence=0.0...  \n",
-              "4  Rule 1: (None -> 22865, 22866 : Confidence=0.0...  \n",
-              "5  Rule 1: (None -> 22865, 22867 : Confidence=0.0...  "
+              "4  Rule 1: (None -> 22866, 22865 : Confidence=0.0...  \n",
+              "5  Rule 1: (None -> 22867, 22865 : Confidence=0.0...  "
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-034950ac-1478-4fa8-80a5-07f4a95f3b2b\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-ad88f413-5acb-447a-aeb1-0f304df8e661\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -4416,16 +4356,16 @@
               "    <tr>\n",
               "      <th>0</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22910, 22086</td>\n",
+              "      <td>22086, 22910</td>\n",
               "      <td>0.0477 (4.77%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22910, 22086 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22086, 22910 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>1</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22112, 22111</td>\n",
+              "      <td>22111, 22112</td>\n",
               "      <td>0.0329 (3.29%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22112, 22111 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22111, 22112 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>2</th>\n",
@@ -4444,16 +4384,16 @@
               "    <tr>\n",
               "      <th>4</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22865, 22866</td>\n",
+              "      <td>22866, 22865</td>\n",
               "      <td>0.0303 (3.03%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22865, 22866 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22866, 22865 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>5</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22865, 22867</td>\n",
+              "      <td>22867, 22865</td>\n",
               "      <td>0.0303 (3.03%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22865, 22867 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22867, 22865 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "  </tbody>\n",
               "</table>\n",
@@ -4461,7 +4401,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-034950ac-1478-4fa8-80a5-07f4a95f3b2b')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-ad88f413-5acb-447a-aeb1-0f304df8e661')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -4513,12 +4453,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-034950ac-1478-4fa8-80a5-07f4a95f3b2b button.colab-df-convert');\n",
+              "        document.querySelector('#df-ad88f413-5acb-447a-aeb1-0f304df8e661 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-034950ac-1478-4fa8-80a5-07f4a95f3b2b');\n",
+              "        const element = document.querySelector('#df-ad88f413-5acb-447a-aeb1-0f304df8e661');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -4538,8 +4478,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-c49a1cfc-709b-4bc1-b229-dca18bbef661\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-c49a1cfc-709b-4bc1-b229-dca18bbef661')\"\n",
+              "<div id=\"df-a7aee7b2-82b9-44bc-b2ac-2db3af022146\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-a7aee7b2-82b9-44bc-b2ac-2db3af022146')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -4658,7 +4598,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-c49a1cfc-709b-4bc1-b229-dca18bbef661 button');\n",
+              "        document.querySelector('#df-a7aee7b2-82b9-44bc-b2ac-2db3af022146 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -4669,7 +4609,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 77
+          "execution_count": 266
         }
       ]
     },
@@ -4680,12 +4620,12 @@
       ],
       "metadata": {
         "id": "aq4VnBUP6HCg",
-        "outputId": "3e7b326b-7393-436c-a346-1431382a2f34",
+        "outputId": "041165b8-e6ae-4dc4-f2c1-6c7f9b5fae3a",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 78,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -4695,7 +4635,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 78
+          "execution_count": 267
         }
       ]
     },
@@ -4718,13 +4658,13 @@
       ],
       "metadata": {
         "id": "0jykWQYA6h1G",
-        "outputId": "aaa5e1f9-380e-4797-dc1a-67025d4a3bef",
+        "outputId": "978cf696-d758-4d33-e64a-7b0e985fcef1",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 597
+          "height": 423
         }
       },
-      "execution_count": 79,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -4760,7 +4700,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-ed9a7b08-a140-4577-b6b7-beb682428621\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-c25acd81-3470-402f-95d9-b58c8a8bf62e\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -4918,7 +4858,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-ed9a7b08-a140-4577-b6b7-beb682428621')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-c25acd81-3470-402f-95d9-b58c8a8bf62e')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -4970,12 +4910,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-ed9a7b08-a140-4577-b6b7-beb682428621 button.colab-df-convert');\n",
+              "        document.querySelector('#df-c25acd81-3470-402f-95d9-b58c8a8bf62e button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-ed9a7b08-a140-4577-b6b7-beb682428621');\n",
+              "        const element = document.querySelector('#df-c25acd81-3470-402f-95d9-b58c8a8bf62e');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -4995,8 +4935,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-117add4c-284e-41fa-b266-8eeffe15aea1\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-117add4c-284e-41fa-b266-8eeffe15aea1')\"\n",
+              "<div id=\"df-0c59e3d0-a879-4da4-a2e4-da20d7b16899\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-0c59e3d0-a879-4da4-a2e4-da20d7b16899')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -5115,7 +5055,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-117add4c-284e-41fa-b266-8eeffe15aea1 button');\n",
+              "        document.querySelector('#df-0c59e3d0-a879-4da4-a2e4-da20d7b16899 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -5126,26 +5066,26 @@
             ]
           },
           "metadata": {},
-          "execution_count": 79
+          "execution_count": 268
         }
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "vlt = valentine.groupby('InvoiceNo')['StockCode'].apply(list) #ทำการ group และทำให้ข้อมูลใน Description เป็นlist"
+        "trans5 = valentine.groupby('InvoiceNo')['StockCode'].apply(list)"
       ],
       "metadata": {
         "id": "G7ghtlyq6Xbu"
       },
-      "execution_count": 80,
+      "execution_count": null,
       "outputs": []
     },
     {
       "cell_type": "code",
       "source": [
         "min_sup = 0.09\n",
-        "frequentItemsets = list(apriori(vlt,min_support = min_sup))\n",
+        "frequentItemsets = list(apriori(trans5,min_support = min_sup))\n",
         "for i in frequentItemsets:\n",
         "    if i[0].__len__()>1:\n",
         "        print('yes')\n",
@@ -5153,21 +5093,21 @@
       ],
       "metadata": {
         "id": "O2vZEh4q6lqL",
-        "outputId": "1d0dadce-c5ba-431c-c3d8-e51fcf2c6b29",
+        "outputId": "1a353abd-7cc0-4c46-8608-87e8bccc8113",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 81,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
             "yes\n",
-            "RelationRecord(items=frozenset({'22722', '22720'}), support=0.09090909090909091, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22722', '22720'}), confidence=0.09090909090909091, lift=1.0), OrderedStatistic(items_base=frozenset({'22720'}), items_add=frozenset({'22722'}), confidence=0.625, lift=5.729166666666667), OrderedStatistic(items_base=frozenset({'22722'}), items_add=frozenset({'22720'}), confidence=0.8333333333333334, lift=5.729166666666667)])\n",
+            "RelationRecord(items=frozenset({'22720', '22722'}), support=0.09090909090909091, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22720', '22722'}), confidence=0.09090909090909091, lift=1.0), OrderedStatistic(items_base=frozenset({'22720'}), items_add=frozenset({'22722'}), confidence=0.625, lift=5.729166666666667), OrderedStatistic(items_base=frozenset({'22722'}), items_add=frozenset({'22720'}), confidence=0.8333333333333334, lift=5.729166666666667)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22720', '22969'}), support=0.09090909090909091, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22720', '22969'}), confidence=0.09090909090909091, lift=1.0), OrderedStatistic(items_base=frozenset({'22720'}), items_add=frozenset({'22969'}), confidence=0.625, lift=6.875), OrderedStatistic(items_base=frozenset({'22969'}), items_add=frozenset({'22720'}), confidence=1.0, lift=6.875)])\n"
+            "RelationRecord(items=frozenset({'22969', '22720'}), support=0.09090909090909091, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22969', '22720'}), confidence=0.09090909090909091, lift=1.0), OrderedStatistic(items_base=frozenset({'22720'}), items_add=frozenset({'22969'}), confidence=0.625, lift=6.875), OrderedStatistic(items_base=frozenset({'22969'}), items_add=frozenset({'22720'}), confidence=1.0, lift=6.875)])\n"
           ]
         }
       ]
@@ -5175,70 +5115,57 @@
     {
       "cell_type": "code",
       "source": [
-        "import pandas as pd\n",
-        "from apyori import apriori\n",
+        "frequent_itemsets = list(apriori(trans5, min_support = min_sup))\n",
         "\n",
-        "# Replace 'transactions' with your actual list of transaction sets.\n",
-        "frequent_itemsets = list(apriori(vlt, min_support=min_sup))\n",
-        "\n",
-        "# Prepare a list to collect the results.\n",
         "results = []\n",
         "\n",
-        "# Process each frequent itemset generated by the apriori algorithm.\n",
         "for itemset in frequent_itemsets:\n",
-        "    # Check if the itemset has more than one item.\n",
         "    if len(itemset.items) > 1:\n",
-        "        # Store the basic itemset information.\n",
         "        item_info = {\n",
         "            \"yes\": 'yes',\n",
         "            \"Items\": ', '.join(itemset.items),\n",
         "            \"Support\": f\"{itemset.support:.4f} ({itemset.support*100:.2f}%)\"\n",
         "        }\n",
-        "        rules_info = []\n",
         "\n",
-        "        # Now process the rules associated with the itemset.\n",
+        "        rules_info = []\n",
         "        for rule_number, ordered_stat in enumerate(itemset.ordered_statistics, start=1):\n",
         "            base_items = ', '.join(ordered_stat.items_base) if ordered_stat.items_base else 'None'\n",
         "            add_items = ', '.join(ordered_stat.items_add)\n",
-        "            # Store the rule information.\n",
+        "\n",
         "            rules_info.append(f\"Rule {rule_number}: ({base_items} -> {add_items} : Confidence={ordered_stat.confidence:.4f}, Lift={ordered_stat.lift:.4f})\")\n",
         "\n",
-        "        # Add the itemset information and all its rules to the results.\n",
         "        item_info.update({\"Rules\": '\\n'.join(rules_info)})\n",
         "        results.append(item_info)\n",
         "\n",
-        "# Convert the results list to a DataFrame for display.\n",
         "results_df = pd.DataFrame(results)\n",
         "\n",
-        "# If you want to display the DataFrame in Google Colab:\n",
-        "results_df\n",
-        "\n"
+        "results_df"
       ],
       "metadata": {
         "id": "XWTlgI-W7EIh",
-        "outputId": "63ffc96e-88be-49a4-a345-9a885beef744",
+        "outputId": "11be00a2-f36d-4e87-f995-986339ea38f0",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 212
+          "height": 112
         }
       },
-      "execution_count": 82,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
               "   yes         Items         Support  \\\n",
-              "0  yes  22722, 22720  0.0909 (9.09%)   \n",
-              "1  yes  22720, 22969  0.0909 (9.09%)   \n",
+              "0  yes  22720, 22722  0.0909 (9.09%)   \n",
+              "1  yes  22969, 22720  0.0909 (9.09%)   \n",
               "\n",
               "                                               Rules  \n",
-              "0  Rule 1: (None -> 22722, 22720 : Confidence=0.0...  \n",
-              "1  Rule 1: (None -> 22720, 22969 : Confidence=0.0...  "
+              "0  Rule 1: (None -> 22720, 22722 : Confidence=0.0...  \n",
+              "1  Rule 1: (None -> 22969, 22720 : Confidence=0.0...  "
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-23e8eb1d-c028-49a1-88f9-91267870c755\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-2d57c673-f825-4be7-8cf5-a55dc3b0343a\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -5267,16 +5194,16 @@
               "    <tr>\n",
               "      <th>0</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22722, 22720</td>\n",
+              "      <td>22720, 22722</td>\n",
               "      <td>0.0909 (9.09%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22722, 22720 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22720, 22722 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>1</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22720, 22969</td>\n",
+              "      <td>22969, 22720</td>\n",
               "      <td>0.0909 (9.09%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22720, 22969 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22969, 22720 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "  </tbody>\n",
               "</table>\n",
@@ -5284,7 +5211,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-23e8eb1d-c028-49a1-88f9-91267870c755')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-2d57c673-f825-4be7-8cf5-a55dc3b0343a')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -5336,12 +5263,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-23e8eb1d-c028-49a1-88f9-91267870c755 button.colab-df-convert');\n",
+              "        document.querySelector('#df-2d57c673-f825-4be7-8cf5-a55dc3b0343a button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-23e8eb1d-c028-49a1-88f9-91267870c755');\n",
+              "        const element = document.querySelector('#df-2d57c673-f825-4be7-8cf5-a55dc3b0343a');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -5361,8 +5288,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-444b776d-9f03-4ff3-9539-712a8adf075c\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-444b776d-9f03-4ff3-9539-712a8adf075c')\"\n",
+              "<div id=\"df-aed0b412-1598-4170-9d22-5a625fd9b836\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-aed0b412-1598-4170-9d22-5a625fd9b836')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -5481,7 +5408,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-444b776d-9f03-4ff3-9539-712a8adf075c button');\n",
+              "        document.querySelector('#df-aed0b412-1598-4170-9d22-5a625fd9b836 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -5492,7 +5419,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 82
+          "execution_count": 271
         }
       ]
     },
@@ -5503,12 +5430,12 @@
       ],
       "metadata": {
         "id": "8mMq4dfE7H_s",
-        "outputId": "c86e0fde-e5eb-4e1b-eeaf-32fb82487903",
+        "outputId": "3fb41f59-dca0-4db3-80e2-0dc771dbe305",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 83,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -5518,7 +5445,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 83
+          "execution_count": 272
         }
       ]
     },
@@ -5529,12 +5456,12 @@
       ],
       "metadata": {
         "id": "d5bpdNzI9SoR",
-        "outputId": "84f188c2-1e7d-41d6-e8c8-45b32500dc9f",
+        "outputId": "36bcea61-1454-4e63-d6d3-e6c81e1a00ff",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 84,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -5544,7 +5471,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 84
+          "execution_count": 273
         }
       ]
     },
@@ -5568,12 +5495,12 @@
       ],
       "metadata": {
         "id": "SFpCdjLp9a3P",
-        "outputId": "62aa15c6-8734-4f10-e58d-b60724e489bf",
+        "outputId": "5e73538d-992e-42cb-82cd-5345c7f27e77",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 85,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -5595,7 +5522,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 85
+          "execution_count": 279
         }
       ]
     },
@@ -5611,12 +5538,12 @@
       ],
       "metadata": {
         "id": "uJK79SK-9dWc",
-        "outputId": "647330bd-88bb-4a36-811f-d46a6fcdf02c",
+        "outputId": "a5b95303-ba71-4372-b3ef-2aa9b208c498",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 86,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -5625,13 +5552,13 @@
             "yes\n",
             "RelationRecord(items=frozenset({'20725', '22383'}), support=0.02551748063061327, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'20725', '22383'}), confidence=0.02551748063061327, lift=1.0), OrderedStatistic(items_base=frozenset({'20725'}), items_add=frozenset({'22383'}), confidence=0.41169154228855726, lift=8.178034978248117), OrderedStatistic(items_base=frozenset({'22383'}), items_add=frozenset({'20725'}), confidence=0.5068912710566615, lift=8.178034978248116)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'21931', '85099B'}), support=0.028177157614770843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'21931', '85099B'}), confidence=0.028177157614770843, lift=1.0), OrderedStatistic(items_base=frozenset({'21931'}), items_add=frozenset({'85099B'}), confidence=0.6086594504579517, lift=7.3959963106466695), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'21931'}), confidence=0.34238875878220143, lift=7.395996310646671)])\n",
+            "RelationRecord(items=frozenset({'85099B', '21931'}), support=0.028177157614770843, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85099B', '21931'}), confidence=0.028177157614770843, lift=1.0), OrderedStatistic(items_base=frozenset({'21931'}), items_add=frozenset({'85099B'}), confidence=0.6086594504579517, lift=7.3959963106466695), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'21931'}), confidence=0.34238875878220143, lift=7.395996310646671)])\n",
             "yes\n",
             "RelationRecord(items=frozenset({'85099B', '22386'}), support=0.03207030798288556, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85099B', '22386'}), confidence=0.03207030798288556, lift=1.0), OrderedStatistic(items_base=frozenset({'22386'}), items_add=frozenset({'85099B'}), confidence=0.6758732737611698, lift=8.212730838963012), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'22386'}), confidence=0.38969555035128806, lift=8.21273083896301)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'85099B', '22411'}), support=0.02632694753883514, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'85099B', '22411'}), confidence=0.02632694753883514, lift=1.0), OrderedStatistic(items_base=frozenset({'22411'}), items_add=frozenset({'85099B'}), confidence=0.5754001684919966, lift=6.99185319493577), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'22411'}), confidence=0.3199063231850117, lift=6.9918531949357705)])\n",
+            "RelationRecord(items=frozenset({'22411', '85099B'}), support=0.02632694753883514, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22411', '85099B'}), confidence=0.02632694753883514, lift=1.0), OrderedStatistic(items_base=frozenset({'22411'}), items_add=frozenset({'85099B'}), confidence=0.5754001684919966, lift=6.99185319493577), OrderedStatistic(items_base=frozenset({'85099B'}), items_add=frozenset({'22411'}), confidence=0.3199063231850117, lift=6.9918531949357705)])\n",
             "yes\n",
-            "RelationRecord(items=frozenset({'22697', '22699'}), support=0.03022009790694985, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22697', '22699'}), confidence=0.03022009790694985, lift=1.0), OrderedStatistic(items_base=frozenset({'22697'}), items_add=frozenset({'22699'}), confidence=0.7417218543046357, lift=17.180794701986752), OrderedStatistic(items_base=frozenset({'22699'}), items_add=frozenset({'22697'}), confidence=0.7, lift=17.180794701986752)])\n"
+            "RelationRecord(items=frozenset({'22699', '22697'}), support=0.03022009790694985, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'22699', '22697'}), confidence=0.03022009790694985, lift=1.0), OrderedStatistic(items_base=frozenset({'22697'}), items_add=frozenset({'22699'}), confidence=0.7417218543046357, lift=17.180794701986752), OrderedStatistic(items_base=frozenset({'22699'}), items_add=frozenset({'22697'}), confidence=0.7, lift=17.180794701986752)])\n"
           ]
         }
       ]
@@ -5639,20 +5566,14 @@
     {
       "cell_type": "code",
       "source": [
-        "import pandas as pd\n",
-        "from apyori import apriori\n",
-        "\n",
-        "# Replace 'transactions' with your actual list of transaction sets.\n",
         "frequent_itemsets = list(apriori(transactions, min_support=min_sup))\n",
         "\n",
-        "# Prepare a list to collect the results.\n",
         "results = []\n",
         "\n",
-        "# Process each frequent itemset generated by the apriori algorithm.\n",
         "for itemset in frequent_itemsets:\n",
-        "    # Check if the itemset has more than one item.\n",
+        "\n",
         "    if len(itemset.items) > 1:\n",
-        "        # Store the basic itemset information.\n",
+        "\n",
         "        item_info = {\n",
         "            \"yes\": 'yes',\n",
         "            \"Items\": ', '.join(itemset.items),\n",
@@ -5660,32 +5581,28 @@
         "        }\n",
         "        rules_info = []\n",
         "\n",
-        "        # Now process the rules associated with the itemset.\n",
         "        for rule_number, ordered_stat in enumerate(itemset.ordered_statistics, start=1):\n",
         "            base_items = ', '.join(ordered_stat.items_base) if ordered_stat.items_base else 'None'\n",
         "            add_items = ', '.join(ordered_stat.items_add)\n",
-        "            # Store the rule information.\n",
+        "\n",
         "            rules_info.append(f\"Rule {rule_number}: ({base_items} -> {add_items} : Confidence={ordered_stat.confidence:.4f}, Lift={ordered_stat.lift:.4f})\")\n",
         "\n",
-        "        # Add the itemset information and all its rules to the results.\n",
         "        item_info.update({\"Rules\": '\\n'.join(rules_info)})\n",
         "        results.append(item_info)\n",
         "\n",
-        "# Convert the results list to a DataFrame for display.\n",
         "results_df = pd.DataFrame(results)\n",
         "\n",
-        "# If you want to display the DataFrame in Google Colab:\n",
         "results_df\n"
       ],
       "metadata": {
         "id": "eTsRk1FN9hph",
-        "outputId": "61294c1b-453a-4794-b2c9-2274814a5634",
+        "outputId": "d379db4e-3726-46b3-f648-39f4036d5635",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 325
+          "height": 206
         }
       },
-      "execution_count": 87,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -5693,21 +5610,21 @@
             "text/plain": [
               "   yes          Items         Support  \\\n",
               "0  yes   20725, 22383  0.0255 (2.55%)   \n",
-              "1  yes  21931, 85099B  0.0282 (2.82%)   \n",
+              "1  yes  85099B, 21931  0.0282 (2.82%)   \n",
               "2  yes  85099B, 22386  0.0321 (3.21%)   \n",
-              "3  yes  85099B, 22411  0.0263 (2.63%)   \n",
-              "4  yes   22697, 22699  0.0302 (3.02%)   \n",
+              "3  yes  22411, 85099B  0.0263 (2.63%)   \n",
+              "4  yes   22699, 22697  0.0302 (3.02%)   \n",
               "\n",
               "                                               Rules  \n",
               "0  Rule 1: (None -> 20725, 22383 : Confidence=0.0...  \n",
-              "1  Rule 1: (None -> 21931, 85099B : Confidence=0....  \n",
+              "1  Rule 1: (None -> 85099B, 21931 : Confidence=0....  \n",
               "2  Rule 1: (None -> 85099B, 22386 : Confidence=0....  \n",
-              "3  Rule 1: (None -> 85099B, 22411 : Confidence=0....  \n",
-              "4  Rule 1: (None -> 22697, 22699 : Confidence=0.0...  "
+              "3  Rule 1: (None -> 22411, 85099B : Confidence=0....  \n",
+              "4  Rule 1: (None -> 22699, 22697 : Confidence=0.0...  "
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-3a4590c3-9e3d-46e3-a53e-339d6805e50b\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-0827f6e8-e539-429a-b2c3-b2520fbdb899\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -5743,9 +5660,9 @@
               "    <tr>\n",
               "      <th>1</th>\n",
               "      <td>yes</td>\n",
-              "      <td>21931, 85099B</td>\n",
+              "      <td>85099B, 21931</td>\n",
               "      <td>0.0282 (2.82%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 21931, 85099B : Confidence=0....</td>\n",
+              "      <td>Rule 1: (None -&gt; 85099B, 21931 : Confidence=0....</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>2</th>\n",
@@ -5757,16 +5674,16 @@
               "    <tr>\n",
               "      <th>3</th>\n",
               "      <td>yes</td>\n",
-              "      <td>85099B, 22411</td>\n",
+              "      <td>22411, 85099B</td>\n",
               "      <td>0.0263 (2.63%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 85099B, 22411 : Confidence=0....</td>\n",
+              "      <td>Rule 1: (None -&gt; 22411, 85099B : Confidence=0....</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>4</th>\n",
               "      <td>yes</td>\n",
-              "      <td>22697, 22699</td>\n",
+              "      <td>22699, 22697</td>\n",
               "      <td>0.0302 (3.02%)</td>\n",
-              "      <td>Rule 1: (None -&gt; 22697, 22699 : Confidence=0.0...</td>\n",
+              "      <td>Rule 1: (None -&gt; 22699, 22697 : Confidence=0.0...</td>\n",
               "    </tr>\n",
               "  </tbody>\n",
               "</table>\n",
@@ -5774,7 +5691,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-3a4590c3-9e3d-46e3-a53e-339d6805e50b')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-0827f6e8-e539-429a-b2c3-b2520fbdb899')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -5826,12 +5743,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-3a4590c3-9e3d-46e3-a53e-339d6805e50b button.colab-df-convert');\n",
+              "        document.querySelector('#df-0827f6e8-e539-429a-b2c3-b2520fbdb899 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-3a4590c3-9e3d-46e3-a53e-339d6805e50b');\n",
+              "        const element = document.querySelector('#df-0827f6e8-e539-429a-b2c3-b2520fbdb899');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -5851,8 +5768,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-2d491691-5a5f-4372-86a2-60914c2ebd62\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-2d491691-5a5f-4372-86a2-60914c2ebd62')\"\n",
+              "<div id=\"df-07d76a24-36e7-4b51-a30b-696be3802883\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-07d76a24-36e7-4b51-a30b-696be3802883')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -5971,7 +5888,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-2d491691-5a5f-4372-86a2-60914c2ebd62 button');\n",
+              "        document.querySelector('#df-07d76a24-36e7-4b51-a30b-696be3802883 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -5982,33 +5899,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 87
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "set(df[(df['StockCode']=='85099B') | (df['StockCode']=='22386')]['Description'])"
-      ],
-      "metadata": {
-        "id": "j7JTyeATe76m",
-        "outputId": "b8f8e42d-9b06-4c82-d1c3-5463f9ba5402",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        }
-      },
-      "execution_count": 88,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "{'JUMBO BAG PINK POLKADOT', 'JUMBO BAG RED RETROSPOT'}"
-            ]
-          },
-          "metadata": {},
-          "execution_count": 88
+          "execution_count": 282
         }
       ]
     }
