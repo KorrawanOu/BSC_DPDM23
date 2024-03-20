@@ -5,6 +5,10 @@ Data Preparation and Data Mining
 
 นางสาวกรวรรณ อู่จอหอ รหัสนักศึกษา 643020495-5
 
+# Google drive (บทเรียน,ข้อมูล)
+
+https://drive.google.com/drive/folders/1twcFC2tmFInHZEq4WTekw0OKnIfNSHf_?usp=sharing
+
 # Score
 - Midterm (data Prepocessing ปฏิบัติ [เดียว]) = 20%
 
