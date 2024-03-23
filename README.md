@@ -24,6 +24,13 @@ https://drive.google.com/drive/folders/1twcFC2tmFInHZEq4WTekw0OKnIfNSHf_?usp=sha
 
 - GitHub (ตวามเรียบร้อยเเละสวยงาม) = 5% Final Score = Score * %attendance
 
+# Homework
+- Hw1 Frequent Items (Association Rules)
+- Hw2 Decision tree handwritting
+- Hw3 Group_Decision Tree(min_sample_leaf,max_feature)
+- Hw4 Group_Decision Tree handwritting(min_sample_leaf,max_feature)
+- Hw5 Neural network (Perceptron)
+
 # Member Group
 📒HW 1 กลุ่ม แต่งโตมาดแมนหุ่นปานดาราโก้
 
