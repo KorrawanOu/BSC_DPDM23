@@ -61,6 +61,10 @@ https://drive.google.com/drive/folders/1twcFC2tmFInHZEq4WTekw0OKnIfNSHf_?usp=sha
 * สุชาดา อุปพงษ์ รหัสนักศึกษา 643020524-4
 * ธิติพร หิงพุดซา รหัสนักศึกษา 643021278-8
 
+# Data Project
+Click to [Link](https://data.go.th/dataset/psdexercise?fbclid=IwAR241MtTa_aqxeEX2gFZAlnfME2VkEF00q0kHlXYdS_mMVnpJDK3yWDRzxU)
+
+
 
 
 
